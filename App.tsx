@@ -6,8 +6,23 @@ export default function App() {
   const [dateString, setDateString] = useState("");
   const [hourString, setHourString] = useState("");
   const [showList, setShowList] = useState(false);
+  const [data, setData] = useState([]);
+
+  let file = "./assets/timezones.json";
 
   useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch(file);
+        const jsonData = await response.json();
+        setData(jsonData);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+
     const interval = setInterval(() => {
       updateDate();
     }, 1000);
@@ -53,18 +68,14 @@ export default function App() {
       />
       {showList && (
         <View style={styles.list}>
-          <View style={styles.timeZone}>
-            <Text>Something</Text>
-          </View>
-          <View style={styles.timeZone}>
-            <Text>Something</Text>
-          </View>
-          <View style={styles.timeZone}>
-            <Text>Something</Text>
-          </View>
-          <View style={styles.timeZone}>
-            <Text>Something</Text>
-          </View>
+          {data.map((x) => {
+            return (
+              <View style={styles.timeZone} key={x.value}>
+                <Text style={{ color: "white" }}>{x.value}</Text>
+                <Text style={{ color: "white" }}>{x.offset}</Text>
+              </View>
+            );
+          })}
         </View>
       )}
     </ScrollView>
@@ -74,7 +85,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#0f172a",
     flexDirection: "column",
     paddingTop: 30,
     paddingHorizontal: 20,
@@ -83,6 +94,7 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: "bold",
     textAlign: "center",
+    color: "white",
   },
   list: {
     justifyContent: "center",
@@ -91,6 +103,10 @@ const styles = StyleSheet.create({
   },
   timeZone: {
     height: 50,
+
+    justifyContent: "center",
+    alignItems: "center",
+    flexDirection: "row",
 
     backgroundColor: "blue",
   },
