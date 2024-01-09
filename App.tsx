@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { useEffect, useState } from "react";
-import { StyleSheet, Text, ScrollView, Button } from "react-native";
+import { StyleSheet, Text, ScrollView, Button, View } from "react-native";
 
 export default function App() {
   const [dateString, setDateString] = useState("");
@@ -49,12 +49,20 @@ export default function App() {
         }}
       />
       {showList && (
-        <>
-          <Text style={styles.timeZone}>Something</Text>
-          <Text style={styles.timeZone}>Something</Text>
-          <Text style={styles.timeZone}>Something</Text>
-          <Text style={styles.timeZone}>Something</Text>
-        </>
+        <View style={styles.list}>
+          <View style={styles.timeZone}>
+            <Text>Something</Text>
+          </View>
+          <View style={styles.timeZone}>
+            <Text>Something</Text>
+          </View>
+          <View style={styles.timeZone}>
+            <Text>Something</Text>
+          </View>
+          <View style={styles.timeZone}>
+            <Text>Something</Text>
+          </View>
+        </View>
       )}
     </ScrollView>
   );
@@ -79,8 +87,8 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   timeZone: {
-    width: "90%",
+    height: 50,
 
-    backgroundColor: "#blue",
+    backgroundColor: "blue",
   },
 });
