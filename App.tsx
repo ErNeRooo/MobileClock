@@ -25,14 +25,17 @@ export default function App() {
     let month: number = date.getMonth() + 1;
     let day: number = date.getDate();
 
-    let stringHours: string = hours.toString();
-    let stringMinutes: string = minutes.toString();
-    let stringSeconds: string = seconds.toString();
+    let stringHours: string =
+      hours < 10 ? "0" + hours.toString() : hours.toString();
+    let stringMinutes: string =
+      minutes < 10 ? "0" + minutes.toString() : minutes.toString();
+    let stringSeconds: string =
+      seconds < 10 ? "0" + seconds.toString() : seconds.toString();
 
     let stringYear: string = year.toString();
     let stringMonth: string =
-      month < 9 ? "0" + month.toString() : month.toString();
-    let stringDay: string = day < 9 ? "0" + day.toString() : day.toString();
+      month < 10 ? "0" + month.toString() : month.toString();
+    let stringDay: string = day < 10 ? "0" + day.toString() : day.toString();
 
     setDateString(`${stringYear}-${stringMonth}-${stringDay}`);
     setHourString(`${stringHours}:${stringMinutes}:${stringSeconds}`);
