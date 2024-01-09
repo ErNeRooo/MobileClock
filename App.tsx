@@ -17,16 +17,25 @@ export default function App() {
   const updateDate = () => {
     let date = new Date();
 
-    let hours: string = date.getHours().toString();
-    let minutes: string = date.getMinutes().toString();
-    let seconds: string = date.getSeconds().toString();
+    let hours: number = date.getHours();
+    let minutes: number = date.getMinutes();
+    let seconds: number = date.getSeconds();
 
-    let year: string = date.getFullYear().toString();
-    let month: string = (date.getMonth() + 1).toString();
-    let day: string = date.getDate().toString();
+    let year: number = date.getFullYear();
+    let month: number = date.getMonth() + 1;
+    let day: number = date.getDate();
 
-    setDateString(`${year}-${month}-${day}`);
-    setHourString(`${hours}:${minutes}:${seconds}`);
+    let stringHours: string = hours.toString();
+    let stringMinutes: string = minutes.toString();
+    let stringSeconds: string = seconds.toString();
+
+    let stringYear: string = year.toString();
+    let stringMonth: string =
+      month < 9 ? "0" + month.toString() : month.toString();
+    let stringDay: string = day < 9 ? "0" + day.toString() : day.toString();
+
+    setDateString(`${stringYear}-${stringMonth}-${stringDay}`);
+    setHourString(`${stringHours}:${stringMinutes}:${stringSeconds}`);
   };
 
   return (
