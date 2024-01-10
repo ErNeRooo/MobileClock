@@ -7,6 +7,7 @@ import {
   Button,
   View,
   TouchableOpacity,
+  TextInput,
 } from "react-native";
 import Data from "./assets/timezones.json";
 
@@ -18,7 +19,6 @@ export default function App() {
     description: "Coordinated Universal Time",
     utcOffset: 0,
   });
-  const [showList, setShowList] = useState(false);
 
   useEffect(() => {
     updateDate(translateDateByUtcOffset(new Date(), currentTimeZone.utcOffset));
@@ -48,11 +48,22 @@ export default function App() {
         utcOffset: offset,
       };
     });
-    setShowList(!showList);
   };
 
-  const mapData = () => {
-    let answer = Data.map(({ name, description, offset }, index) => (
+  const mapData = (filterText: string = "") => {
+    let data = Data.sort((a, b) => {
+      return a.name.localeCompare(b.name);
+    });
+
+    console.log("morgen");
+
+    if (filterText != "") {
+      data = data.filter((item) => {
+        return item.name.includes(filterText);
+      });
+    }
+
+    let answer = data.map(({ name, description, offset }, index) => (
       <TouchableOpacity
         style={styles.timeZone}
         onPress={() => {
@@ -101,19 +112,23 @@ export default function App() {
     setHourString(`${stringHours}:${stringMinutes}:${stringSeconds}`);
   };
 
+  const onChangeHandler = (text: string) => {
+    mapData(text);
+  };
+
   return (
     <ScrollView style={styles.container}>
       <Text style={styles.clock}>{currentTimeZone.name}</Text>
       <Text style={styles.clock}>{currentTimeZone.description}</Text>
       <Text style={styles.clock}>{dateString}</Text>
       <Text style={styles.clock}>{hourString}</Text>
-      <Button
-        title="Change time Zone"
-        onPress={() => {
-          setShowList(!showList);
-        }}
-      />
-      {showList && <View style={styles.list}>{mapData()}</View>}
+
+      <TextInput
+        style={styles.search}
+        onChangeText={(text) => onChangeHandler(text)}
+      ></TextInput>
+
+      <View style={styles.list}>{mapData()}</View>
     </ScrollView>
   );
 }
@@ -155,5 +170,12 @@ const styles = StyleSheet.create({
   timeZoneText: {
     color: "white",
     fontSize: 20,
+  },
+  search: {
+    height: 50,
+    backgroundColor: "white",
+    borderRadius: 10,
+    paddingHorizontal: 10,
+    marginBottom: 10,
   },
 });
