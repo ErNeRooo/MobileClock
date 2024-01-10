@@ -13,6 +13,11 @@ import Data from "./assets/timezones.json";
 export default function App() {
   const [dateString, setDateString] = useState("");
   const [hourString, setHourString] = useState("");
+  const [currentTimeZone, setCurrentTimeZone] = useState({
+    name: "UTC",
+    description: "Coordinated Universal Time",
+    offset: 0,
+  });
   const [showList, setShowList] = useState(false);
 
   useEffect(() => {
@@ -27,21 +32,31 @@ export default function App() {
   };
 
   const mapData = () => {
-    let answer = Data.map(
-      ({ value, abbr, offset, isdst, text, utc }: ITimeZone, index) => (
-        <TouchableOpacity style={styles.timeZone} onPress={onPressHandler}>
-          <Text style={styles.timeZoneText} key={index}>
-            {value}, offset: {offset}
-          </Text>
-        </TouchableOpacity>
-      )
-    );
+    let answer = Data.map(({ name, description, offset }, index) => (
+      <TouchableOpacity style={styles.timeZone} onPress={onPressHandler}>
+        <Text style={styles.timeZoneText} key={index}>
+          {name}, {description}, offset: {offset / 60}
+        </Text>
+      </TouchableOpacity>
+    ));
 
     return answer;
   };
 
-  const updateDate = () => {
-    let date = new Date();
+  const translateDateByUtcOffset = (date: Date, utcOffset: number) => {
+    // Convert the UTC offset from hours to minutes
+    const offsetInMinutes = utcOffset * 60;
+
+    // Create a new date object with the desired offset
+    const translatedDate = new Date(
+      date.getTime() + (offsetInMinutes + date.getTimezoneOffset()) * 60000
+    );
+
+    return translatedDate;
+  };
+
+  const updateDate = (date: Date = new Date()) => {
+    date = translateDateByUtcOffset(date, -1);
 
     let hours: number = date.getHours();
     let minutes: number = date.getMinutes();
@@ -83,12 +98,9 @@ export default function App() {
 }
 
 interface ITimeZone {
-  value: string;
-  abbr: string;
+  name: string;
+  description: string;
   offset: number;
-  isdst: boolean;
-  text: string;
-  utc: string[];
 }
 
 const styles = StyleSheet.create({
