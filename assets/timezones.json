@@ -1,2912 +1,1237 @@
 [
   {
-    "name": "Etc/GMT-1",
-    "description": "+01:00",
-    "offset": 60
+    "name": "Afghanistan",
+    "offset": 4.3,
+    "latlong": "33.93911,67.709953"
   },
   {
-    "name": "Etc/GMT-2",
-    "description": "+02:00",
-    "offset": 120
+    "name": "Albania",
+    "offset": 2.0,
+    "latlong": "41.153332,20.168331"
   },
   {
-    "name": "Etc/GMT-3",
-    "description": "+03:00",
-    "offset": 180
+    "name": "Algeria",
+    "offset": 2.0,
+    "latlong": "28.0339,1.6596"
   },
   {
-    "name": "Etc/GMT-4",
-    "description": "+04:00",
-    "offset": 240
+    "name": "American Samoa",
+    "offset": -11,
+    "latlong": "14.353818,-170.735915"
   },
   {
-    "name": "Etc/GMT-5",
-    "description": "+05:00",
-    "offset": 300
+    "name": "Angola",
+    "offset": 1.0,
+    "latlong": "-11.202692,17.873887"
   },
   {
-    "name": "Etc/GMT-6",
-    "description": "+06:00",
-    "offset": 360
+    "name": "Anguilla",
+    "offset": -4.0,
+    "latlong": "18.220554,-63.068615"
   },
   {
-    "name": "Etc/GMT-7",
-    "description": "+07:00",
-    "offset": 420
+    "name": "Antartica",
+    "offset": 0.0,
+    "latlong": "-75.250973,-0.071389"
   },
   {
-    "name": "Etc/GMT-8",
-    "description": "+08:00",
-    "offset": 480
+    "name": "Antigua and Barbuda",
+    "offset": -4.0,
+    "latlong": "17.060816,-61.796428"
   },
   {
-    "name": "Etc/GMT-9",
-    "description": "+09:00",
-    "offset": 540
+    "name": "Argentina",
+    "offset": -3.0,
+    "latlong": "-38.416097,-63.616672"
   },
   {
-    "name": "Etc/GMT-10",
-    "description": "+10:00",
-    "offset": 600
+    "name": "Armenia",
+    "offset": 4.0,
+    "latlong": "40.069099,45.038189"
   },
   {
-    "name": "Etc/GMT-11",
-    "description": "+11:00",
-    "offset": 660
+    "name": "Aruba",
+    "offset": -4.0,
+    "latlong": "12.52111,-69.968338"
   },
   {
-    "name": "Etc/GMT-12",
-    "description": "+12:00",
-    "offset": 720
+    "name": "Ashmore and Cartier Island",
+    "offset": 10.0,
+    "latlong": "-12.25833,123.04167"
   },
   {
-    "name": "Etc/GMT-13",
-    "description": "+13:00",
-    "offset": 780
+    "name": "Australia",
+    "offset": 10.0,
+    "latlong": "-25.274398,133.775136"
   },
   {
-    "name": "Etc/GMT-14",
-    "description": "+14:00",
-    "offset": 840
+    "name": "Austria",
+    "offset": 1.0,
+    "latlong": "47.516231,14.550072"
   },
   {
-    "name": "Etc/GMT+1",
-    "description": "-01:00",
-    "offset": -60
+    "name": "Azerbaijan",
+    "offset": 4.0,
+    "latlong": "40.143105,47.576927"
   },
   {
-    "name": "Etc/GMT+2",
-    "description": "-02:00",
-    "offset": -120
+    "name": "Bahamas",
+    "offset": -5.0,
+    "latlong": "25.078136,‎-76.126328"
   },
   {
-    "name": "Etc/GMT+3",
-    "description": "-03:00",
-    "offset": -180
+    "name": "Bahrain",
+    "offset": 3.0,
+    "latlong": "25.930414,50.637772"
   },
   {
-    "name": "Etc/GMT+4",
-    "description": "-04:00",
-    "offset": -240
+    "name": "Bangladesh",
+    "offset": 6.0,
+    "latlong": "23.684994,90.356331"
   },
   {
-    "name": "Etc/GMT+5",
-    "description": "-05:00",
-    "offset": -300
+    "name": "Barbados",
+    "offset": -4.0,
+    "latlong": "13.193887,-59.543198"
   },
   {
-    "name": "Etc/GMT+6",
-    "description": "-06:00",
-    "offset": -360
+    "name": "Belarus",
+    "offset": 3.0,
+    "latlong": "53.709807,27.953389"
   },
   {
-    "name": "Etc/GMT+7",
-    "description": "-07:00",
-    "offset": -420
+    "name": "Belgium",
+    "offset": 1.0,
+    "latlong": "50.503887,4.469936"
   },
   {
-    "name": "Etc/GMT+8",
-    "description": "-08:00",
-    "offset": -480
+    "name": "Belize",
+    "offset": -6.0,
+    "latlong": "17.1899,-88.4976"
   },
   {
-    "name": "Etc/GMT+9",
-    "description": "-09:00",
-    "offset": -540
+    "name": "Benin",
+    "offset": 1.0,
+    "latlong": "9.30769,2.315834"
   },
   {
-    "name": "Etc/GMT+10",
-    "description": "-10:00",
-    "offset": -600
+    "name": "Bermuda",
+    "offset": -4.0,
+    "latlong": "32.321384,-64.75737"
   },
   {
-    "name": "Etc/GMT+11",
-    "description": "-11:00",
-    "offset": -660
+    "name": "Bhutan",
+    "offset": 6.0,
+    "latlong": "27.514162,90.433601"
   },
   {
-    "name": "Etc/GMT+12",
-    "description": "-12:00",
-    "offset": -720
+    "name": "Bolivia",
+    "offset": -4.0,
+    "latlong": "-16.290154,-63.588653"
   },
   {
-    "name": "America/Eirunepe",
-    "description": "Acre Time",
-    "offset": -300
+    "name": "Bosnia and Herzegovina",
+    "offset": 1.0,
+    "latlong": "43.9159,17.6791"
   },
   {
-    "name": "America/Porto_Acre",
-    "description": "Acre Time",
-    "offset": -300
+    "name": "Botswana",
+    "offset": 2.0,
+    "latlong": "-22.328474,24.684866"
   },
   {
-    "name": "America/Rio_Branco",
-    "description": "Acre Time",
-    "offset": -300
+    "name": "Brazil",
+    "offset": -5.0,
+    "latlong": "-14.235004,-51.92528"
   },
   {
-    "name": "Brazil/Acre",
-    "description": "Acre Time",
-    "offset": -300
+    "name": "British Virgin Islands",
+    "offset": -4.0,
+    "latlong": "18.4207,-64.6400"
   },
   {
-    "name": "Asia/Kabul",
-    "description": "Afghanistan Time",
-    "offset": 270
+    "name": "Brunei",
+    "offset": 8.0,
+    "latlong": "4.535277,114.727669"
   },
   {
-    "name": "America/Anchorage",
-    "description": "Alaska Daylight Time",
-    "offset": -480
+    "name": "Bulgaria",
+    "offset": 2.0,
+    "latlong": "42.733883,25.48583"
   },
   {
-    "name": "America/Juneau",
-    "description": "Alaska Daylight Time",
-    "offset": -480
+    "name": "Burkina Faso",
+    "offset": 0.0,
+    "latlong": "12.238333,-1.561593"
   },
   {
-    "name": "America/Nome",
-    "description": "Alaska Daylight Time",
-    "offset": -480
+    "name": "Burma",
+    "offset": 6.3,
+    "latlong": "21.9162,95.9560"
   },
   {
-    "name": "America/Sitka",
-    "description": "Alaska Daylight Time",
-    "offset": -480
+    "name": "Burundi",
+    "offset": 2.0,
+    "latlong": "-3.373056,29.918886"
   },
   {
-    "name": "America/Yakutat",
-    "description": "Alaska Daylight Time",
-    "offset": -480
+    "name": "Cambodia",
+    "offset": 7.0,
+    "latlong": "12.565679,104.990963"
   },
   {
-    "name": "US/Alaska",
-    "description": "Alaska Daylight Time",
-    "offset": -480
+    "name": "Cameroon",
+    "offset": 1.0,
+    "latlong": "7.369722,12.354722"
   },
   {
-    "name": "Asia/Almaty",
-    "description": "Alma-Ata Time",
-    "offset": 360
+    "name": "Canada",
+    "offset": -6.0,
+    "latlong": "56.130366,-106.346771"
   },
   {
-    "name": "America/Boa_Vista",
-    "description": "Amazon Time",
-    "offset": -240
+    "name": "Cape Verde",
+    "offset": -1.0,
+    "latlong": "16.002082,-24.013197"
   },
   {
-    "name": "America/Campo_Grande",
-    "description": "Amazon Time",
-    "offset": -240
+    "name": "Cayman Islands",
+    "offset": -5.0,
+    "latlong": "19.3133,-81.2546"
   },
   {
-    "name": "America/Cuiaba",
-    "description": "Amazon Time",
-    "offset": -240
+    "name": "Central African Republic",
+    "offset": 1.0,
+    "latlong": "6.611111,20.939444"
   },
   {
-    "name": "America/Manaus",
-    "description": "Amazon Time",
-    "offset": -240
+    "name": "Chad",
+    "offset": 1.0,
+    "latlong": "15.4542,18.7322"
   },
   {
-    "name": "America/Porto_Velho",
-    "description": "Amazon Time",
-    "offset": -240
+    "name": "Chile",
+    "offset": -3.0,
+    "latlong": "-35.675147,-71.542969"
   },
   {
-    "name": "Brazil/West",
-    "description": "Amazon Time",
-    "offset": -240
+    "name": "China",
+    "offset": 8.0,
+    "latlong": "35.86166,104.195397"
   },
   {
-    "name": "Asia/Anadyr",
-    "description": "Anadyr Time",
-    "offset": 720
+    "name": "Christmas Island",
+    "offset": 7.0,
+    "latlong": "-10.447525,105.690449"
   },
   {
-    "name": "Asia/Aqtau",
-    "description": "Aqtau Time",
-    "offset": 300
+    "name": "Clipperton Island",
+    "offset": -8.0,
+    "latlong": "10.2833,-109.2167"
   },
   {
-    "name": "Asia/Aqtobe",
-    "description": "Aqtobe Time",
-    "offset": 300
+    "name": "Cocos (Keeling) Islands",
+    "offset": 6.3,
+    "latlong": "-12.164165,96.870956"
   },
   {
-    "name": "Asia/Aden",
-    "description": "Arabia Standard Time",
-    "offset": 180
+    "name": "Colombia",
+    "offset": -5.0,
+    "latlong": "4.57086,-74.297333"
   },
   {
-    "name": "Asia/Baghdad",
-    "description": "Arabia Standard Time",
-    "offset": 180
+    "name": "Comoros",
+    "offset": 3.0,
+    "latlong": "-11.6455,43.3333"
   },
   {
-    "name": "Asia/Bahrain",
-    "description": "Arabia Standard Time",
-    "offset": 180
+    "name": "Congo, Democratic Republic of the",
+    "offset": 1.0,
+    "latlong": "-4.038333,21.758664"
   },
   {
-    "name": "Asia/Kuwait",
-    "description": "Arabia Standard Time",
-    "offset": 180
+    "name": "Cook Islands",
+    "offset": -10.0,
+    "latlong": "-21.236736,-159.777671"
   },
   {
-    "name": "Asia/Qatar",
-    "description": "Arabia Standard Time",
-    "offset": 180
+    "name": "Costa Rica",
+    "offset": -6.0,
+    "latlong": "9.748917,-83.753428"
   },
   {
-    "name": "Asia/Riyadh",
-    "description": "Arabia Standard Time",
-    "offset": 180
+    "name": "Cote d'Ivoire",
+    "offset": 0.0,
+    "latlong": "7.539989,-5.54708"
   },
   {
-    "name": "America/Argentina/Buenos_Aires",
-    "description": "Argentine Time",
-    "offset": -180
+    "name": "Croatia",
+    "offset": 1.0,
+    "latlong": "45.1000,15.2000"
   },
   {
-    "name": "America/Argentina/Catamarca",
-    "description": "Argentine Time",
-    "offset": -180
+    "name": "Cyprus",
+    "offset": 2.0,
+    "latlong": "35.126413,33.429859"
   },
   {
-    "name": "America/Argentina/ComodRivadavia",
-    "description": "Argentine Time",
-    "offset": -180
+    "name": "Czech Republic",
+    "offset": 1.0,
+    "latlong": "49.817492,15.472962"
   },
   {
-    "name": "America/Argentina/Cordoba",
-    "description": "Argentine Time",
-    "offset": -180
+    "name": "Denmark",
+    "offset": 1.0,
+    "latlong": "56.26392,9.501785"
   },
   {
-    "name": "America/Argentina/Jujuy",
-    "description": "Argentine Time",
-    "offset": -180
+    "name": "Djibouti",
+    "offset": 3.0,
+    "latlong": "11.825138,42.590275"
   },
   {
-    "name": "America/Argentina/La_Rioja",
-    "description": "Argentine Time",
-    "offset": -180
+    "name": "Dominica",
+    "offset": -4.0,
+    "latlong": "15.414999,-61.370976"
   },
   {
-    "name": "America/Argentina/Mendoza",
-    "description": "Argentine Time",
-    "offset": -180
+    "name": "Dominican Republic",
+    "offset": -4.0,
+    "latlong": "18.735693,-70.162651"
   },
   {
-    "name": "America/Argentina/Rio_Gallegos",
-    "description": "Argentine Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Argentina/Salta",
-    "description": "Argentine Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Argentina/San_Juan",
-    "description": "Argentine Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Argentina/San_Luis",
-    "description": "Argentine Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Argentina/Tucuman",
-    "description": "Argentine Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Argentina/Ushuaia",
-    "description": "Argentine Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Buenos_Aires",
-    "description": "Argentine Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Catamarca",
-    "description": "Argentine Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Cordoba",
-    "description": "Argentine Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Jujuy",
-    "description": "Argentine Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Mendoza",
-    "description": "Argentine Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Rosario",
-    "description": "Argentine Time",
-    "offset": -180
-  },
-  {
-    "name": "Asia/Yerevan",
-    "description": "Armenia Time",
-    "offset": 240
-  },
-  {
-    "name": "America/Glace_Bay",
-    "description": "Atlantic Daylight Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Goose_Bay",
-    "description": "Atlantic Daylight Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Halifax",
-    "description": "Atlantic Daylight Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Moncton",
-    "description": "Atlantic Daylight Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Thule",
-    "description": "Atlantic Daylight Time",
-    "offset": -180
-  },
-  {
-    "name": "Atlantic/Bermuda",
-    "description": "Atlantic Daylight Time",
-    "offset": -180
-  },
-  {
-    "name": "Canada/Atlantic",
-    "description": "Atlantic Daylight Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Anguilla",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Antigua",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Aruba",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Barbados",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Blanc-Sablon",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Curacao",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Dominica",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Grand_Turk",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Grenada",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Guadeloupe",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Kralendijk",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Lower_Princes",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Marigot",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Martinique",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Montserrat",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Port_of_Spain",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Puerto_Rico",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Santo_Domingo",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/St_Barthelemy",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/St_Kitts",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/St_Lucia",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/St_Thomas",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/St_Vincent",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Tortola",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Virgin",
-    "description": "Atlantic Standard Time",
-    "offset": -240
-  },
-  {
-    "name": "Australia/Darwin",
-    "description": "Australian Central Standard Time (Northern Territory)",
-    "offset": 570
-  },
-  {
-    "name": "Australia/North",
-    "description": "Australian Central Standard Time (Northern Territory)",
-    "offset": 570
-  },
-  {
-    "name": "Australia/Adelaide",
-    "description": "Australian Central Standard Time (South Australia)",
-    "offset": 570
-  },
-  {
-    "name": "Australia/South",
-    "description": "Australian Central Standard Time (South Australia)",
-    "offset": 570
-  },
-  {
-    "name": "Australia/Broken_Hill",
-    "description": "Australian Central Standard Time (South Australia/New South Wales)",
-    "offset": 570
-  },
-  {
-    "name": "Australia/Yancowinna",
-    "description": "Australian Central Standard Time (South Australia/New South Wales)",
-    "offset": 570
-  },
-  {
-    "name": "Australia/Eucla",
-    "description": "Australian Central Western Standard Time",
-    "offset": 525
-  },
-  {
-    "name": "Australia/ACT",
-    "description": "Australian Eastern Standard Time (New South Wales)",
-    "offset": 600
-  },
-  {
-    "name": "Australia/Canberra",
-    "description": "Australian Eastern Standard Time (New South Wales)",
-    "offset": 600
-  },
-  {
-    "name": "Australia/Currie",
-    "description": "Australian Eastern Standard Time (New South Wales)",
-    "offset": 600
-  },
-  {
-    "name": "Australia/NSW",
-    "description": "Australian Eastern Standard Time (New South Wales)",
-    "offset": 600
-  },
-  {
-    "name": "Australia/Sydney",
-    "description": "Australian Eastern Standard Time (New South Wales)",
-    "offset": 600
-  },
-  {
-    "name": "Australia/Brisbane",
-    "description": "Australian Eastern Standard Time (Queensland)",
-    "offset": 600
-  },
-  {
-    "name": "Australia/Lindeman",
-    "description": "Australian Eastern Standard Time (Queensland)",
-    "offset": 600
-  },
-  {
-    "name": "Australia/Queensland",
-    "description": "Australian Eastern Standard Time (Queensland)",
-    "offset": 600
-  },
-  {
-    "name": "Australia/Hobart",
-    "description": "Australian Eastern Standard Time (Tasmania)",
-    "offset": 600
-  },
-  {
-    "name": "Australia/Tasmania",
-    "description": "Australian Eastern Standard Time (Tasmania)",
-    "offset": 600
-  },
-  {
-    "name": "Australia/Melbourne",
-    "description": "Australian Eastern Standard Time (Victoria)",
-    "offset": 600
-  },
-  {
-    "name": "Australia/Victoria",
-    "description": "Australian Eastern Standard Time (Victoria)",
-    "offset": 600
-  },
-  {
-    "name": "Antarctica/Casey",
-    "description": "Australian Western Standard Time",
-    "offset": 480
-  },
-  {
-    "name": "Australia/Perth",
-    "description": "Australian Western Standard Time",
-    "offset": 480
-  },
-  {
-    "name": "Australia/West",
-    "description": "Australian Western Standard Time",
-    "offset": 480
-  },
-  {
-    "name": "Asia/Baku",
-    "description": "Azerbaijan Summer Time",
-    "offset": 300
-  },
-  {
-    "name": "Atlantic/Azores",
-    "description": "Azores Summer Time",
-    "offset": 0
-  },
-  {
-    "name": "Asia/Dacca",
-    "description": "Bangladesh Time",
-    "offset": 360
-  },
-  {
-    "name": "Asia/Dhaka",
-    "description": "Bangladesh Time",
-    "offset": 360
-  },
-  {
-    "name": "Asia/Thimbu",
-    "description": "Bhutan Time",
-    "offset": 360
-  },
-  {
-    "name": "Asia/Thimphu",
-    "description": "Bhutan Time",
-    "offset": 360
-  },
-  {
-    "name": "America/La_Paz",
-    "description": "Bolivia Time",
-    "offset": -240
-  },
-  {
-    "name": "Pacific/Bougainville",
-    "description": "Bougainville Standard Time",
-    "offset": 660
-  },
-  {
-    "name": "America/Araguaina",
-    "description": "Brasilia Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Bahia",
-    "description": "Brasilia Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Belem",
-    "description": "Brasilia Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Fortaleza",
-    "description": "Brasilia Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Maceio",
-    "description": "Brasilia Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Recife",
-    "description": "Brasilia Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Santarem",
-    "description": "Brasilia Time",
-    "offset": -180
-  },
-  {
-    "name": "America/Sao_Paulo",
-    "description": "Brasilia Time",
-    "offset": -180
-  },
-  {
-    "name": "Brazil/East",
-    "description": "Brasilia Time",
-    "offset": -180
-  },
-  {
-    "name": "Europe/Belfast",
-    "description": "British Summer Time",
-    "offset": 60
-  },
-  {
-    "name": "Europe/Guernsey",
-    "description": "British Summer Time",
-    "offset": 60
-  },
-  {
-    "name": "Europe/Isle_of_Man",
-    "description": "British Summer Time",
-    "offset": 60
-  },
-  {
-    "name": "Europe/Jersey",
-    "description": "British Summer Time",
-    "offset": 60
-  },
-  {
-    "name": "Europe/London",
-    "description": "British Summer Time",
-    "offset": 60
-  },
-  {
-    "name": "GB",
-    "description": "British Summer Time",
-    "offset": 60
-  },
-  {
-    "name": "GB-Eire",
-    "description": "British Summer Time",
-    "offset": 60
-  },
-  {
-    "name": "Asia/Brunei",
-    "description": "Brunei Time",
-    "offset": 480
-  },
-  {
-    "name": "Atlantic/Cape_Verde",
-    "description": "Cape Verde Time",
-    "offset": -60
-  },
-  {
-    "name": "Africa/Blantyre",
-    "description": "Central African Time",
-    "offset": 120
-  },
-  {
-    "name": "Africa/Bujumbura",
-    "description": "Central African Time",
-    "offset": 120
-  },
-  {
-    "name": "Africa/Gaborone",
-    "description": "Central African Time",
-    "offset": 120
-  },
-  {
-    "name": "Africa/Harare",
-    "description": "Central African Time",
-    "offset": 120
-  },
-  {
-    "name": "Africa/Kigali",
-    "description": "Central African Time",
-    "offset": 120
-  },
-  {
-    "name": "Africa/Lubumbashi",
-    "description": "Central African Time",
-    "offset": 120
-  },
-  {
-    "name": "Africa/Lusaka",
-    "description": "Central African Time",
-    "offset": 120
-  },
-  {
-    "name": "Africa/Maputo",
-    "description": "Central African Time",
-    "offset": 120
-  },
-  {
-    "name": "America/Bahia_Banderas",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "America/Chicago",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "America/Indiana/Knox",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "America/Indiana/Tell_City",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "America/Knox_IN",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "America/Matamoros",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "America/Menominee",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "America/Merida",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "America/Mexico_City",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "America/Monterrey",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "America/North_Dakota/Beulah",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "America/North_Dakota/Center",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "America/North_Dakota/New_Salem",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "America/Rainy_River",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "America/Rankin_Inlet",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "America/Resolute",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "America/Winnipeg",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "Canada/Central",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "CST6CDT",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "Mexico/General",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "US/Central",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "US/Indiana-Starke",
-    "description": "Central Daylight Time",
-    "offset": -300
-  },
-  {
-    "name": "Africa/Ceuta",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Antarctica/Troll",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Arctic/Longyearbyen",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Atlantic/Jan_Mayen",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "CET",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Amsterdam",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Andorra",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Belgrade",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Berlin",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Bratislava",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Brussels",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Budapest",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Busingen",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Copenhagen",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Gibraltar",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Ljubljana",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Luxembourg",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Madrid",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Malta",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Monaco",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Oslo",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Paris",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Podgorica",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Prague",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Rome",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/San_Marino",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Sarajevo",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Skopje",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Stockholm",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Tirane",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Vaduz",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Vatican",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Vienna",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Warsaw",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Zagreb",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Europe/Zurich",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Poland",
-    "description": "Central European Summer Time",
-    "offset": 120
-  },
-  {
-    "name": "Africa/Algiers",
-    "description": "Central European Time",
-    "offset": 60
-  },
-  {
-    "name": "Africa/Tunis",
-    "description": "Central European Time",
-    "offset": 60
-  },
-  {
-    "name": "Asia/Makassar",
-    "description": "Central Indonesia Time",
-    "offset": 480
-  },
-  {
-    "name": "Asia/Ujung_Pandang",
-    "description": "Central Indonesia Time",
-    "offset": 480
-  },
-  {
-    "name": "America/Belize",
-    "description": "Central Standard Time",
-    "offset": -360
-  },
-  {
-    "name": "America/Costa_Rica",
-    "description": "Central Standard Time",
-    "offset": -360
-  },
-  {
-    "name": "America/El_Salvador",
-    "description": "Central Standard Time",
-    "offset": -360
-  },
-  {
-    "name": "America/Guatemala",
-    "description": "Central Standard Time",
-    "offset": -360
-  },
-  {
-    "name": "America/Managua",
-    "description": "Central Standard Time",
-    "offset": -360
-  },
-  {
-    "name": "America/Regina",
-    "description": "Central Standard Time",
-    "offset": -360
-  },
-  {
-    "name": "America/Swift_Current",
-    "description": "Central Standard Time",
-    "offset": -360
-  },
-  {
-    "name": "America/Tegucigalpa",
-    "description": "Central Standard Time",
-    "offset": -360
-  },
-  {
-    "name": "Canada/East-Saskatchewan",
-    "description": "Central Standard Time",
-    "offset": -360
-  },
-  {
-    "name": "Canada/Saskatchewan",
-    "description": "Central Standard Time",
-    "offset": -360
-  },
-  {
-    "name": "Pacific/Guam",
-    "description": "Chamorro Standard Time",
-    "offset": 600
-  },
-  {
-    "name": "Pacific/Saipan",
-    "description": "Chamorro Standard Time",
-    "offset": 600
-  },
-  {
-    "name": "NZ-CHAT",
-    "description": "Chatham Standard Time",
-    "offset": 765
-  },
-  {
-    "name": "Pacific/Chatham",
-    "description": "Chatham Standard Time",
-    "offset": 765
-  },
-  {
-    "name": "America/Santiago",
-    "description": "Chile Time",
-    "offset": -180
-  },
-  {
-    "name": "Antarctica/Palmer",
-    "description": "Chile Time",
-    "offset": -180
-  },
-  {
-    "name": "Chile/Continental",
-    "description": "Chile Time",
-    "offset": -180
-  },
-  {
-    "name": "Asia/Chongqing",
-    "description": "China Standard Time",
-    "offset": 480
-  },
-  {
-    "name": "Asia/Chungking",
-    "description": "China Standard Time",
-    "offset": 480
-  },
-  {
-    "name": "Asia/Harbin",
-    "description": "China Standard Time",
-    "offset": 480
-  },
-  {
-    "name": "Asia/Macao",
-    "description": "China Standard Time",
-    "offset": 480
-  },
-  {
-    "name": "Asia/Macau",
-    "description": "China Standard Time",
-    "offset": 480
-  },
-  {
-    "name": "Asia/Shanghai",
-    "description": "China Standard Time",
-    "offset": 480
-  },
-  {
-    "name": "Asia/Taipei",
-    "description": "China Standard Time",
-    "offset": 480
-  },
-  {
-    "name": "PRC",
-    "description": "China Standard Time",
-    "offset": 480
-  },
-  {
-    "name": "ROC",
-    "description": "China Standard Time",
-    "offset": 480
-  },
-  {
-    "name": "Asia/Choibalsan",
-    "description": "Choibalsan Summer Time",
-    "offset": 540
-  },
-  {
-    "name": "Indian/Christmas",
-    "description": "Christmas Island Time",
-    "offset": 420
-  },
-  {
-    "name": "Pacific/Chuuk",
-    "description": "Chuuk Time",
-    "offset": 600
-  },
-  {
-    "name": "Pacific/Truk",
-    "description": "Chuuk Time",
-    "offset": 600
-  },
-  {
-    "name": "Pacific/Yap",
-    "description": "Chuuk Time",
-    "offset": 600
-  },
-  {
-    "name": "Indian/Cocos",
-    "description": "Cocos Islands Time",
-    "offset": 390
-  },
-  {
-    "name": "America/Bogota",
-    "description": "Colombia Time",
-    "offset": -300
-  },
-  {
-    "name": "Pacific/Rarotonga",
-    "description": "Cook Is. Time",
-    "offset": -600
-  },
-  {
-    "name": "Etc/UCT",
-    "description": "Coordinated Universal Time",
-    "offset": 0
-  },
-  {
-    "name": "Etc/Universal",
-    "description": "Coordinated Universal Time",
-    "offset": 0
-  },
-  {
-    "name": "Etc/UTC",
-    "description": "Coordinated Universal Time",
-    "offset": 0
-  },
-  {
-    "name": "Etc/Zulu",
-    "description": "Coordinated Universal Time",
-    "offset": 0
-  },
-  {
-    "name": "UCT",
-    "description": "Coordinated Universal Time",
-    "offset": 0
-  },
-  {
-    "name": "Universal",
-    "description": "Coordinated Universal Time",
-    "offset": 0
-  },
-  {
-    "name": "UTC",
-    "description": "Coordinated Universal Time",
-    "offset": 0
-  },
-  {
-    "name": "Zulu",
-    "description": "Coordinated Universal Time",
-    "offset": 0
-  },
-  {
-    "name": "America/Havana",
-    "description": "Cuba Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "Cuba",
-    "description": "Cuba Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "Antarctica/Davis",
-    "description": "Davis Time",
-    "offset": 420
-  },
-  {
-    "name": "Antarctica/DumontDUrville",
-    "description": "Dumont-d'Urville Time",
-    "offset": 600
-  },
-  {
-    "name": "Asia/Jayapura",
-    "description": "East Indonesia Time",
-    "offset": 540
-  },
-  {
-    "name": "Chile/EasterIsland",
-    "description": "Easter Is. Time",
-    "offset": -300
-  },
-  {
-    "name": "Pacific/Easter",
-    "description": "Easter Is. Time",
-    "offset": -300
-  },
-  {
-    "name": "Africa/Addis_Ababa",
-    "description": "Eastern African Time",
-    "offset": 180
-  },
-  {
-    "name": "Africa/Asmara",
-    "description": "Eastern African Time",
-    "offset": 180
-  },
-  {
-    "name": "Africa/Asmera",
-    "description": "Eastern African Time",
-    "offset": 180
-  },
-  {
-    "name": "Africa/Dar_es_Salaam",
-    "description": "Eastern African Time",
-    "offset": 180
-  },
-  {
-    "name": "Africa/Djibouti",
-    "description": "Eastern African Time",
-    "offset": 180
-  },
-  {
-    "name": "Africa/Juba",
-    "description": "Eastern African Time",
-    "offset": 180
-  },
-  {
-    "name": "Africa/Kampala",
-    "description": "Eastern African Time",
-    "offset": 180
-  },
-  {
-    "name": "Africa/Khartoum",
-    "description": "Eastern African Time",
-    "offset": 180
-  },
-  {
-    "name": "Africa/Mogadishu",
-    "description": "Eastern African Time",
-    "offset": 180
-  },
-  {
-    "name": "Africa/Nairobi",
-    "description": "Eastern African Time",
-    "offset": 180
-  },
-  {
-    "name": "Indian/Antananarivo",
-    "description": "Eastern African Time",
-    "offset": 180
-  },
-  {
-    "name": "Indian/Comoro",
-    "description": "Eastern African Time",
-    "offset": 180
-  },
-  {
-    "name": "Indian/Mayotte",
-    "description": "Eastern African Time",
-    "offset": 180
-  },
-  {
-    "name": "America/Cayman",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Detroit",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Fort_Wayne",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Indiana/Indianapolis",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Indiana/Marengo",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Indiana/Petersburg",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Indiana/Vevay",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Indiana/Vincennes",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Indiana/Winamac",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Indianapolis",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Iqaluit",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Kentucky/Louisville",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Kentucky/Monticello",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Louisville",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Montreal",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Nassau",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "America/New_York",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Nipigon",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Pangnirtung",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Port-au-Prince",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Thunder_Bay",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Toronto",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "Canada/Eastern",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "EST5EDT",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "US/East-Indiana",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "US/Eastern",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "US/Michigan",
-    "description": "Eastern Daylight Time",
-    "offset": -240
-  },
-  {
-    "name": "Asia/Amman",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Asia/Beirut",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Asia/Damascus",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Asia/Gaza",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Asia/Hebron",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Asia/Istanbul",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Asia/Nicosia",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "EET",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Europe/Athens",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Europe/Bucharest",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Europe/Chisinau",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Europe/Helsinki",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Europe/Istanbul",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Europe/Kiev",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Europe/Mariehamn",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Europe/Nicosia",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Europe/Riga",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Europe/Sofia",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Europe/Tallinn",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Europe/Tiraspol",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Europe/Uzhgorod",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Europe/Vilnius",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Europe/Zaporozhye",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Turkey",
-    "description": "Eastern European Summer Time",
-    "offset": 180
-  },
-  {
-    "name": "Africa/Cairo",
-    "description": "Eastern European Time",
-    "offset": 120
-  },
-  {
-    "name": "Africa/Tripoli",
-    "description": "Eastern European Time",
-    "offset": 120
+    "name": "Ecuador",
+    "offset": -5.0,
+    "latlong": "-1.831239,-78.183406"
   },
   {
     "name": "Egypt",
-    "description": "Eastern European Time",
-    "offset": 120
+    "offset": 2.0,
+    "latlong": "26.820553,30.802498"
   },
   {
-    "name": "Europe/Kaliningrad",
-    "description": "Eastern European Time",
-    "offset": 120
+    "name": "El Salvador",
+    "offset": -6.0,
+    "latlong": "13.794185,-88.89653"
   },
   {
-    "name": "Libya",
-    "description": "Eastern European Time",
-    "offset": 120
+    "name": "Equatorial Guinea",
+    "offset": 1.0,
+    "latlong": "1.650801,10.267895"
   },
   {
-    "name": "America/Scoresbysund",
-    "description": "Eastern Greenland Summer Time",
-    "offset": 0
+    "name": "Eritrea",
+    "offset": 3.0,
+    "latlong": "15.179384,39.782334"
   },
   {
-    "name": "America/Atikokan",
-    "description": "Eastern Standard Time",
-    "offset": -300
+    "name": "Estonia",
+    "offset": 2.0,
+    "latlong": "58.595272,25.013607"
   },
   {
-    "name": "America/Cancun",
-    "description": "Eastern Standard Time",
-    "offset": -300
+    "name": "Ethiopia",
+    "offset": 3.0,
+    "latlong": "9.145,40.489673"
   },
   {
-    "name": "America/Coral_Harbour",
-    "description": "Eastern Standard Time",
-    "offset": -300
+    "name": "Europa Island",
+    "offset": 3.0,
+    "latlong": "-22.3333,40.3667"
   },
   {
-    "name": "America/Jamaica",
-    "description": "Eastern Standard Time",
-    "offset": -300
+    "name": "Falkland Islands (Islas Malvinas)",
+    "offset": -3.0,
+    "latlong": "-51.796253,-59.523613"
   },
   {
-    "name": "America/Panama",
-    "description": "Eastern Standard Time",
-    "offset": -300
+    "name": "Faroe Islands",
+    "offset": 0.0,
+    "latlong": "61.892635,-6.911806"
   },
   {
-    "name": "EST",
-    "description": "Eastern Standard Time",
-    "offset": -300
+    "name": "Fiji",
+    "offset": 12.0,
+    "latlong": "-16.578193,179.414413"
   },
   {
-    "name": "Jamaica",
-    "description": "Eastern Standard Time",
-    "offset": -300
+    "name": "Finland",
+    "offset": 2.0,
+    "latlong": "61.92411,25.748151"
   },
   {
-    "name": "America/Guayaquil",
-    "description": "Ecuador Time",
-    "offset": -300
+    "name": "France",
+    "offset": 1.0,
+    "latlong": "46.227638,2.213749"
   },
   {
-    "name": "Atlantic/Stanley",
-    "description": "Falkland Is. Time",
-    "offset": -180
+    "name": "French Guiana",
+    "offset": -3.0,
+    "latlong": "3.933889,-53.125782"
   },
   {
-    "name": "America/Noronha",
-    "description": "Fernando de Noronha Time",
-    "offset": -120
+    "name": "French Polynesia",
+    "offset": -10.0,
+    "latlong": "-17.679742,-149.406843"
   },
   {
-    "name": "Brazil/DeNoronha",
-    "description": "Fernando de Noronha Time",
-    "offset": -120
+    "name": "French Southern and Antarctic Lands",
+    "offset": 3.0,
+    "latlong": "-49.280366,69.348557"
   },
   {
-    "name": "Pacific/Fiji",
-    "description": "Fiji Time",
-    "offset": 720
+    "name": "Gabon",
+    "offset": 1.0,
+    "latlong": "-0.803689,11.609444"
   },
   {
-    "name": "America/Cayenne",
-    "description": "French Guiana Time",
-    "offset": -180
+    "name": "Gambia, The",
+    "offset": 0.0,
+    "latlong": "13.443182,-15.310139"
   },
   {
-    "name": "Indian/Kerguelen",
-    "description": "French Southern \u0026 Antarctic Lands Time",
-    "offset": 300
+    "name": "Gaza Strip",
+    "offset": 3.0,
+    "latlong": "31.354676,34.308825"
   },
   {
-    "name": "Pacific/Galapagos",
-    "description": "Galapagos Time",
-    "offset": -360
+    "name": "Georgia",
+    "offset": 4.0,
+    "latlong": "42.315407,43.356892"
   },
   {
-    "name": "Pacific/Gambier",
-    "description": "Gambier Time",
-    "offset": -540
+    "name": "Germany",
+    "offset": 1.0,
+    "latlong": "51.165691,10.451526"
   },
   {
-    "name": "Asia/Tbilisi",
-    "description": "Georgia Time",
-    "offset": 240
+    "name": "Ghana",
+    "offset": 0.0,
+    "latlong": "7.946527,-1.023194"
   },
   {
-    "name": "Africa/Accra",
-    "description": "Ghana Mean Time",
-    "offset": 0
+    "name": "Gibraltar",
+    "offset": 1.0,
+    "latlong": "36.137741,-5.345374"
   },
   {
-    "name": "Pacific/Tarawa",
-    "description": "Gilbert Is. Time",
-    "offset": 720
+    "name": "Glorioso Islands",
+    "offset": 4.0,
+    "latlong": "11.5000,47.3333"
   },
   {
-    "name": "Africa/Abidjan",
-    "description": "Greenwich Mean Time",
-    "offset": 0
+    "name": "Greece",
+    "offset": 2.0,
+    "latlong": "39.074208,21.824312"
   },
   {
-    "name": "Africa/Bamako",
-    "description": "Greenwich Mean Time",
-    "offset": 0
+    "name": "Greenland",
+    "offset": -3.0,
+    "latlong": "71.706936,-42.604303"
   },
   {
-    "name": "Africa/Banjul",
-    "description": "Greenwich Mean Time",
-    "offset": 0
+    "name": "Grenada",
+    "offset": -4.0,
+    "latlong": "12.262776,-61.604171"
   },
   {
-    "name": "Africa/Bissau",
-    "description": "Greenwich Mean Time",
-    "offset": 0
+    "name": "Guadeloupe",
+    "offset": -4.0,
+    "latlong": "16.995971,-62.067641"
   },
   {
-    "name": "Africa/Conakry",
-    "description": "Greenwich Mean Time",
-    "offset": 0
+    "name": "Guam",
+    "offset": 10.0,
+    "latlong": "13.444304,144.793731"
   },
   {
-    "name": "Africa/Dakar",
-    "description": "Greenwich Mean Time",
-    "offset": 0
+    "name": "Guatemala",
+    "offset": -6.0,
+    "latlong": "15.783471,-90.230759"
   },
   {
-    "name": "Africa/Freetown",
-    "description": "Greenwich Mean Time",
-    "offset": 0
+    "name": "Guernsey",
+    "offset": 0.0,
+    "latlong": "49.465691,-2.585278"
   },
   {
-    "name": "Africa/Lome",
-    "description": "Greenwich Mean Time",
-    "offset": 0
+    "name": "Guinea",
+    "offset": 0.0,
+    "latlong": "9.945587,-9.696645"
   },
   {
-    "name": "Africa/Monrovia",
-    "description": "Greenwich Mean Time",
-    "offset": 0
+    "name": "Guinea-Bissau",
+    "offset": 0.0,
+    "latlong": "11.803749,-15.180413"
   },
   {
-    "name": "Africa/Nouakchott",
-    "description": "Greenwich Mean Time",
-    "offset": 0
+    "name": "Guyana",
+    "offset": -4.0,
+    "latlong": "4.860416,-58.93018"
   },
   {
-    "name": "Africa/Ouagadougou",
-    "description": "Greenwich Mean Time",
-    "offset": 0
+    "name": "Haiti",
+    "offset": -5.0,
+    "latlong": "18.971187,-72.285215"
   },
   {
-    "name": "Africa/Sao_Tome",
-    "description": "Greenwich Mean Time",
-    "offset": 0
+    "name": "Heard Island and McDonald Islands",
+    "offset": 5.0,
+    "latlong": "-53.08181,73.504158"
   },
   {
-    "name": "Africa/Timbuktu",
-    "description": "Greenwich Mean Time",
-    "offset": 0
+    "name": "Holy See (Vatican City)",
+    "offset": 1.0,
+    "latlong": "41.902916,12.453389"
   },
   {
-    "name": "America/Danmarkshavn",
-    "description": "Greenwich Mean Time",
-    "offset": 0
+    "name": "Honduras",
+    "offset": -6.0,
+    "latlong": "15.199999,-86.241905"
   },
   {
-    "name": "Atlantic/Reykjavik",
-    "description": "Greenwich Mean Time",
-    "offset": 0
+    "name": "Hong Kong",
+    "offset": 8.0,
+    "latlong": "22.396428,114.109497"
   },
   {
-    "name": "Atlantic/St_Helena",
-    "description": "Greenwich Mean Time",
-    "offset": 0
+    "name": "Howland Island",
+    "offset": -12.0,
+    "latlong": "0.8113,176.6183"
   },
   {
-    "name": "Etc/GMT",
-    "description": "Greenwich Mean Time",
-    "offset": 0
-  },
-  {
-    "name": "Etc/GMT+0",
-    "description": "Greenwich Mean Time",
-    "offset": 0
-  },
-  {
-    "name": "Etc/GMT-0",
-    "description": "Greenwich Mean Time",
-    "offset": 0
-  },
-  {
-    "name": "Etc/GMT0",
-    "description": "Greenwich Mean Time",
-    "offset": 0
-  },
-  {
-    "name": "Etc/Greenwich",
-    "description": "Greenwich Mean Time",
-    "offset": 0
-  },
-  {
-    "name": "GMT",
-    "description": "Greenwich Mean Time",
-    "offset": 0
-  },
-  {
-    "name": "GMT+0",
-    "description": "Greenwich Mean Time",
-    "offset": 0
-  },
-  {
-    "name": "GMT-0",
-    "description": "Greenwich Mean Time",
-    "offset": 0
-  },
-  {
-    "name": "GMT0",
-    "description": "Greenwich Mean Time",
-    "offset": 0
-  },
-  {
-    "name": "Greenwich",
-    "description": "Greenwich Mean Time",
-    "offset": 0
+    "name": "Hungary",
+    "offset": 1.0,
+    "latlong": "47.162494,19.503304"
   },
   {
     "name": "Iceland",
-    "description": "Greenwich Mean Time",
-    "offset": 0
+    "offset": 0.0,
+    "latlong": "64.963051,-19.020835"
   },
   {
-    "name": "Asia/Dubai",
-    "description": "Gulf Standard Time",
-    "offset": 240
+    "name": "India",
+    "offset": 5.3,
+    "latlong": "20.593684,78.96288"
   },
   {
-    "name": "Asia/Muscat",
-    "description": "Gulf Standard Time",
-    "offset": 240
-  },
-  {
-    "name": "America/Guyana",
-    "description": "Guyana Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Adak",
-    "description": "Hawaii Daylight Time",
-    "offset": -540
-  },
-  {
-    "name": "America/Atka",
-    "description": "Hawaii Daylight Time",
-    "offset": -540
-  },
-  {
-    "name": "US/Aleutian",
-    "description": "Hawaii Daylight Time",
-    "offset": -540
-  },
-  {
-    "name": "HST",
-    "description": "Hawaii Standard Time",
-    "offset": -600
-  },
-  {
-    "name": "Pacific/Honolulu",
-    "description": "Hawaii Standard Time",
-    "offset": -600
-  },
-  {
-    "name": "Pacific/Johnston",
-    "description": "Hawaii Standard Time",
-    "offset": -600
-  },
-  {
-    "name": "US/Hawaii",
-    "description": "Hawaii Standard Time",
-    "offset": -600
-  },
-  {
-    "name": "Asia/Hong_Kong",
-    "description": "Hong Kong Time",
-    "offset": 480
-  },
-  {
-    "name": "Hongkong",
-    "description": "Hong Kong Time",
-    "offset": 480
-  },
-  {
-    "name": "Asia/Hovd",
-    "description": "Hovd Summer Time",
-    "offset": 480
-  },
-  {
-    "name": "Asia/Calcutta",
-    "description": "India Standard Time",
-    "offset": 330
-  },
-  {
-    "name": "Asia/Colombo",
-    "description": "India Standard Time",
-    "offset": 330
-  },
-  {
-    "name": "Asia/Kolkata",
-    "description": "India Standard Time",
-    "offset": 330
-  },
-  {
-    "name": "Indian/Chagos",
-    "description": "Indian Ocean Territory Time",
-    "offset": 360
-  },
-  {
-    "name": "Asia/Bangkok",
-    "description": "Indochina Time",
-    "offset": 420
-  },
-  {
-    "name": "Asia/Ho_Chi_Minh",
-    "description": "Indochina Time",
-    "offset": 420
-  },
-  {
-    "name": "Asia/Phnom_Penh",
-    "description": "Indochina Time",
-    "offset": 420
-  },
-  {
-    "name": "Asia/Saigon",
-    "description": "Indochina Time",
-    "offset": 420
-  },
-  {
-    "name": "Asia/Vientiane",
-    "description": "Indochina Time",
-    "offset": 420
-  },
-  {
-    "name": "Asia/Tehran",
-    "description": "Iran Daylight Time",
-    "offset": 270
+    "name": "Indonesia",
+    "offset": 7.0,
+    "latlong": "-0.789275,113.921327"
   },
   {
     "name": "Iran",
-    "description": "Iran Daylight Time",
-    "offset": 270
+    "offset": 3.3,
+    "latlong": "32.427908,53.688046"
   },
   {
-    "name": "Eire",
-    "description": "Irish Summer Time",
-    "offset": 60
+    "name": "Iraq",
+    "offset": 3.0,
+    "latlong": "33.223191,43.679291"
   },
   {
-    "name": "Europe/Dublin",
-    "description": "Irish Summer Time",
-    "offset": 60
+    "name": "Ireland",
+    "offset": 0.0,
+    "latlong": "53.41291,-8.24389"
   },
   {
-    "name": "Asia/Chita",
-    "description": "Irkutsk Time",
-    "offset": 480
-  },
-  {
-    "name": "Asia/Irkutsk",
-    "description": "Irkutsk Time",
-    "offset": 480
-  },
-  {
-    "name": "Asia/Jerusalem",
-    "description": "Israel Daylight Time",
-    "offset": 180
-  },
-  {
-    "name": "Asia/Tel_Aviv",
-    "description": "Israel Daylight Time",
-    "offset": 180
+    "name": "Ireland, Northern",
+    "offset": 0.0,
+    "latlong": "54.7877,-6.4923"
   },
   {
     "name": "Israel",
-    "description": "Israel Daylight Time",
-    "offset": 180
+    "offset": 2.0,
+    "latlong": "31.046051,34.851612"
   },
   {
-    "name": "Asia/Tokyo",
-    "description": "Japan Standard Time",
-    "offset": 540
+    "name": "Italy",
+    "offset": 1.0,
+    "latlong": "41.87194,12.56738"
+  },
+  {
+    "name": "Jamaica",
+    "offset": -5.0,
+    "latlong": "18.109581,-77.297508"
+  },
+  {
+    "name": "Jan Mayen",
+    "offset": 1.0,
+    "latlong": "77.553604,23.670272"
   },
   {
     "name": "Japan",
-    "description": "Japan Standard Time",
-    "offset": 540
+    "offset": 9.0,
+    "latlong": "36.204824,138.252924"
   },
   {
-    "name": "Asia/Khandyga",
-    "description": "Khandyga Time",
-    "offset": 540
+    "name": "Jarvis Island",
+    "offset": -11.0,
+    "latlong": "0.3744,-159.9967"
   },
   {
-    "name": "Asia/Bishkek",
-    "description": "Kirgizstan Time",
-    "offset": 360
+    "name": "Jersey",
+    "offset": 0.0,
+    "latlong": "49.214439,-2.13125"
   },
   {
-    "name": "Asia/Pyongyang",
-    "description": "Korea Standard Time",
-    "offset": 540
+    "name": "Johnston Atoll",
+    "offset": -10.0,
+    "latlong": "16.7314,169.5344"
   },
   {
-    "name": "Asia/Seoul",
-    "description": "Korea Standard Time",
-    "offset": 540
+    "name": "Jordan",
+    "offset": 2.0,
+    "latlong": "30.585164,36.238414"
   },
   {
-    "name": "ROK",
-    "description": "Korea Standard Time",
-    "offset": 540
+    "name": "Juan de Nova Island",
+    "offset": 3.0,
+    "latlong": "-17.0542,42.7247"
   },
   {
-    "name": "Pacific/Kosrae",
-    "description": "Kosrae Time",
-    "offset": 660
+    "name": "Kazakhstan",
+    "offset": 5.0,
+    "latlong": "48.019573,66.923684"
   },
   {
-    "name": "Asia/Krasnoyarsk",
-    "description": "Krasnoyarsk Time",
-    "offset": 420
+    "name": "Kenya",
+    "offset": 3.0,
+    "latlong": "-0.023559,37.906193"
   },
   {
-    "name": "Asia/Novokuznetsk",
-    "description": "Krasnoyarsk Time",
-    "offset": 420
+    "name": "Kiribati",
+    "offset": 12.0,
+    "latlong": "-3.370417,-168.734039"
   },
   {
-    "name": "Pacific/Kiritimati",
-    "description": "Line Is. Time",
-    "offset": 840
+    "name": "Korea, North",
+    "offset": 8.3,
+    "latlong": "40.339852,127.510093"
   },
   {
-    "name": "Australia/LHI",
-    "description": "Lord Howe Standard Time",
-    "offset": 630
+    "name": "Korea, South",
+    "offset": 9.0,
+    "latlong": "35.907757,127.766922"
   },
   {
-    "name": "Australia/Lord_Howe",
-    "description": "Lord Howe Standard Time",
-    "offset": 630
+    "name": "Kuwait",
+    "offset": 3.0,
+    "latlong": "29.31166,47.481766"
   },
   {
-    "name": "Antarctica/Macquarie",
-    "description": "Macquarie Island Standard Time",
-    "offset": 660
+    "name": "Kyrgyzstan",
+    "offset": 6.0,
+    "latlong": "41.20438,74.766098"
   },
   {
-    "name": "Asia/Magadan",
-    "description": "Magadan Time",
-    "offset": 600
+    "name": "Laos",
+    "offset": 7.0,
+    "latlong": "19.85627,102.495496"
   },
   {
-    "name": "Asia/Kuala_Lumpur",
-    "description": "Malaysia Time",
-    "offset": 480
+    "name": "Latvia",
+    "offset": 2.0,
+    "latlong": "56.879635,24.603189"
   },
   {
-    "name": "Asia/Kuching",
-    "description": "Malaysia Time",
-    "offset": 480
+    "name": "Lebanon",
+    "offset": 2.0,
+    "latlong": "33.854721,35.862285"
   },
   {
-    "name": "Indian/Maldives",
-    "description": "Maldives Time",
-    "offset": 300
+    "name": "Lesotho",
+    "offset": 2.0,
+    "latlong": "-29.609988,28.233608"
   },
   {
-    "name": "Pacific/Marquesas",
-    "description": "Marquesas Time",
-    "offset": -570
+    "name": "Liberia",
+    "offset": 0.0,
+    "latlong": "56.879635,24.603189"
   },
   {
-    "name": "Kwajalein",
-    "description": "Marshall Islands Time",
-    "offset": 720
+    "name": "Libya",
+    "offset": 1.0,
+    "latlong": "26.3351,17.22833"
   },
   {
-    "name": "Pacific/Kwajalein",
-    "description": "Marshall Islands Time",
-    "offset": 720
+    "name": "Liechtenstein",
+    "offset": 1.0,
+    "latlong": "47.166,9.555373"
   },
   {
-    "name": "Pacific/Majuro",
-    "description": "Marshall Islands Time",
-    "offset": 720
+    "name": "Lithuania",
+    "offset": 2.0,
+    "latlong": "55.169438,23.881275"
   },
   {
-    "name": "Indian/Mauritius",
-    "description": "Mauritius Time",
-    "offset": 240
+    "name": "Luxembourg",
+    "offset": 1.0,
+    "latlong": "49.815273,6.129583"
   },
   {
-    "name": "Antarctica/Mawson",
-    "description": "Mawson Time",
-    "offset": 300
+    "name": "Macau",
+    "offset": 8.0,
+    "latlong": "22.198745,113.543873"
   },
   {
-    "name": "MET",
-    "description": "Middle Europe Summer Time",
-    "offset": 120
+    "name": "Macedonia, Former Yugoslav Republic of",
+    "offset": 1.0,
+    "latlong": "41.608635,21.745275"
   },
   {
-    "name": "Europe/Minsk",
-    "description": "Moscow Standard Time",
-    "offset": 180
+    "name": "Madagascar",
+    "offset": 3.0,
+    "latlong": "-18.766947,46.869107"
   },
   {
-    "name": "Europe/Moscow",
-    "description": "Moscow Standard Time",
-    "offset": 180
+    "name": "Malawi",
+    "offset": 2.0,
+    "latlong": "-13.254308,34.301525"
   },
   {
-    "name": "Europe/Simferopol",
-    "description": "Moscow Standard Time",
-    "offset": 180
+    "name": "Malaysia",
+    "offset": 8.0,
+    "latlong": "4.210484,101.975766"
   },
   {
-    "name": "Europe/Volgograd",
-    "description": "Moscow Standard Time",
-    "offset": 180
+    "name": "Maldives",
+    "offset": 5.0,
+    "latlong": "3.202778,73.22068"
   },
   {
-    "name": "W-SU",
-    "description": "Moscow Standard Time",
-    "offset": 180
+    "name": "Mali",
+    "offset": 0.0,
+    "latlong": "17.570692,-3.996166"
   },
   {
-    "name": "America/Boise",
-    "description": "Mountain Daylight Time",
-    "offset": -360
+    "name": "Malta",
+    "offset": 0.0,
+    "latlong": "35.937496,14.375416"
   },
   {
-    "name": "America/Cambridge_Bay",
-    "description": "Mountain Daylight Time",
-    "offset": -360
+    "name": "Man, Isle of",
+    "offset": 0.0,
+    "latlong": "54.236107,-4.548056"
   },
   {
-    "name": "America/Chihuahua",
-    "description": "Mountain Daylight Time",
-    "offset": -360
+    "name": "Marshall Islands",
+    "offset": 12.0,
+    "latlong": "7.131474,171.184478"
   },
   {
-    "name": "America/Denver",
-    "description": "Mountain Daylight Time",
-    "offset": -360
+    "name": "Martinique",
+    "offset": -4.0,
+    "latlong": "14.641528,-61.024174"
   },
   {
-    "name": "America/Edmonton",
-    "description": "Mountain Daylight Time",
-    "offset": -360
+    "name": "Mauritania",
+    "offset": 0.0,
+    "latlong": "21.00789,-10.940835"
   },
   {
-    "name": "America/Inuvik",
-    "description": "Mountain Daylight Time",
-    "offset": -360
+    "name": "Mauritius",
+    "offset": 4.0,
+    "latlong": "-20.348404,57.552152"
   },
   {
-    "name": "America/Mazatlan",
-    "description": "Mountain Daylight Time",
-    "offset": -360
+    "name": "Mayotte",
+    "offset": 3.0,
+    "latlong": "-12.8275,45.166244"
   },
   {
-    "name": "America/Ojinaga",
-    "description": "Mountain Daylight Time",
-    "offset": -360
+    "name": "Mexico",
+    "offset": -6.0,
+    "latlong": "23.634501,-102.552784"
   },
   {
-    "name": "America/Shiprock",
-    "description": "Mountain Daylight Time",
-    "offset": -360
+    "name": "Micronesia, Federated States of",
+    "offset": 10.0,
+    "latlong": "7.425554,150.550812"
   },
   {
-    "name": "America/Yellowknife",
-    "description": "Mountain Daylight Time",
-    "offset": -360
+    "name": "Midway Islands",
+    "offset": -11.0,
+    "latlong": "28.2101,-177.3761"
   },
   {
-    "name": "Canada/Mountain",
-    "description": "Mountain Daylight Time",
-    "offset": -360
+    "name": "Moldova",
+    "offset": 2.0,
+    "latlong": "47.411631,28.369885"
   },
   {
-    "name": "Mexico/BajaSur",
-    "description": "Mountain Daylight Time",
-    "offset": -360
+    "name": "Monaco",
+    "offset": 1.0,
+    "latlong": "43.750298,7.412841"
   },
   {
-    "name": "MST7MDT",
-    "description": "Mountain Daylight Time",
-    "offset": -360
+    "name": "Mongolia",
+    "offset": 8.0,
+    "latlong": "46.862496,103.846656"
   },
   {
-    "name": "Navajo",
-    "description": "Mountain Daylight Time",
-    "offset": -360
+    "name": "Montserrat",
+    "offset": -4.0,
+    "latlong": "16.742498,-62.187366"
   },
   {
-    "name": "US/Mountain",
-    "description": "Mountain Daylight Time",
-    "offset": -360
+    "name": "Morocco",
+    "offset": 0.0,
+    "latlong": "31.791702,-7.09262"
   },
   {
-    "name": "America/Creston",
-    "description": "Mountain Standard Time",
-    "offset": -420
+    "name": "Mozambique",
+    "offset": 2.0,
+    "latlong": "-18.665695,35.529562"
   },
   {
-    "name": "America/Dawson_Creek",
-    "description": "Mountain Standard Time",
-    "offset": -420
+    "name": "Namibia",
+    "offset": 1.0,
+    "latlong": "-22.95764,18.49041"
   },
   {
-    "name": "America/Hermosillo",
-    "description": "Mountain Standard Time",
-    "offset": -420
+    "name": "Nauru",
+    "offset": 12.0,
+    "latlong": "-0.522778,166.931503"
   },
   {
-    "name": "America/Phoenix",
-    "description": "Mountain Standard Time",
-    "offset": -420
+    "name": "Nepal",
+    "offset": 5.45,
+    "latlong": "28.394857,84.124008"
   },
   {
-    "name": "MST",
-    "description": "Mountain Standard Time",
-    "offset": -420
+    "name": "Netherlands",
+    "offset": 1.0,
+    "latlong": "52.132633,5.291266"
   },
   {
-    "name": "US/Arizona",
-    "description": "Mountain Standard Time",
-    "offset": -420
+    "name": "Netherlands Antilles",
+    "offset": -4.0,
+    "latlong": "12.226079,-69.060087"
   },
   {
-    "name": "Asia/Rangoon",
-    "description": "Myanmar Time",
-    "offset": 390
+    "name": "New Zealand",
+    "offset": 12.0,
+    "latlong": "-40.900557,174.885971"
   },
   {
-    "name": "Pacific/Nauru",
-    "description": "Nauru Time",
-    "offset": 720
+    "name": "Nicaragua",
+    "offset": -6.0,
+    "latlong": "12.865416,-85.207229"
   },
   {
-    "name": "Asia/Kathmandu",
-    "description": "Nepal Time",
-    "offset": 345
+    "name": "Niger",
+    "offset": 1.0,
+    "latlong": "17.607789,8.081666"
   },
   {
-    "name": "Asia/Katmandu",
-    "description": "Nepal Time",
-    "offset": 345
+    "name": "Nigeria",
+    "offset": 1.0,
+    "latlong": "9.081999,8.675277"
   },
   {
-    "name": "Pacific/Noumea",
-    "description": "New Caledonia Time",
-    "offset": 660
+    "name": "Niue",
+    "offset": -11.0,
+    "latlong": "-19.054445,-169.867233"
   },
   {
-    "name": "Antarctica/McMurdo",
-    "description": "New Zealand Standard Time",
-    "offset": 720
+    "name": "Norfolk Island",
+    "offset": 11.3,
+    "latlong": "-29.040835,167.954712"
   },
   {
-    "name": "Antarctica/South_Pole",
-    "description": "New Zealand Standard Time",
-    "offset": 720
+    "name": "Northern Mariana Islands",
+    "offset": 10.0,
+    "latlong": "17.33083,145.38469"
   },
   {
-    "name": "NZ",
-    "description": "New Zealand Standard Time",
-    "offset": 720
+    "name": "Norway",
+    "offset": 1.0,
+    "latlong": "60.472024,8.468946"
   },
   {
-    "name": "Pacific/Auckland",
-    "description": "New Zealand Standard Time",
-    "offset": 720
+    "name": "Oman",
+    "offset": 4.0,
+    "latlong": "21.512583,55.923255"
   },
   {
-    "name": "America/St_Johns",
-    "description": "Newfoundland Daylight Time",
-    "offset": -150
+    "name": "Pakistan",
+    "offset": 5.0,
+    "latlong": "30.375321,69.345116"
   },
   {
-    "name": "Canada/Newfoundland",
-    "description": "Newfoundland Daylight Time",
-    "offset": -150
+    "name": "Palau",
+    "offset": 9.0,
+    "latlong": "7.51498,134.58252"
   },
   {
-    "name": "Pacific/Niue",
-    "description": "Niue Time",
-    "offset": -660
+    "name": "Panama",
+    "offset": -5.0,
+    "latlong": "8.537981,-80.782127"
   },
   {
-    "name": "Pacific/Norfolk",
-    "description": "Norfolk Time",
-    "offset": 690
+    "name": "Papua New Guinea",
+    "offset": 10.0,
+    "latlong": "-6.314993,143.95555"
   },
   {
-    "name": "Asia/Novosibirsk",
-    "description": "Novosibirsk Time",
-    "offset": 360
+    "name": "Paraguay",
+    "offset": -4.0,
+    "latlong": "-23.442503,-58.443832"
   },
   {
-    "name": "Asia/Omsk",
-    "description": "Omsk Time",
-    "offset": 360
+    "name": "Peru",
+    "offset": -5.0,
+    "latlong": "-9.189967,-75.015152"
   },
   {
-    "name": "Asia/Oral",
-    "description": "Oral Time",
-    "offset": 300
+    "name": "Philippines",
+    "offset": 8.0,
+    "latlong": "12.879721,121.774017"
   },
   {
-    "name": "America/Dawson",
-    "description": "Pacific Daylight Time",
-    "offset": -420
+    "name": "Pitcaim Islands",
+    "offset": -8.0,
+    "latlong": "-24.703615,-127.439308"
   },
   {
-    "name": "America/Ensenada",
-    "description": "Pacific Daylight Time",
-    "offset": -420
-  },
-  {
-    "name": "America/Los_Angeles",
-    "description": "Pacific Daylight Time",
-    "offset": -420
-  },
-  {
-    "name": "America/Santa_Isabel",
-    "description": "Pacific Daylight Time",
-    "offset": -420
-  },
-  {
-    "name": "America/Tijuana",
-    "description": "Pacific Daylight Time",
-    "offset": -420
-  },
-  {
-    "name": "America/Vancouver",
-    "description": "Pacific Daylight Time",
-    "offset": -420
-  },
-  {
-    "name": "America/Whitehorse",
-    "description": "Pacific Daylight Time",
-    "offset": -420
-  },
-  {
-    "name": "Canada/Pacific",
-    "description": "Pacific Daylight Time",
-    "offset": -420
-  },
-  {
-    "name": "Canada/Yukon",
-    "description": "Pacific Daylight Time",
-    "offset": -420
-  },
-  {
-    "name": "Mexico/BajaNorte",
-    "description": "Pacific Daylight Time",
-    "offset": -420
-  },
-  {
-    "name": "PST8PDT",
-    "description": "Pacific Daylight Time",
-    "offset": -420
-  },
-  {
-    "name": "US/Pacific",
-    "description": "Pacific Daylight Time",
-    "offset": -420
-  },
-  {
-    "name": "US/Pacific-New",
-    "description": "Pacific Daylight Time",
-    "offset": -420
-  },
-  {
-    "name": "America/Metlakatla",
-    "description": "Pacific Standard Time",
-    "offset": -480
-  },
-  {
-    "name": "Asia/Karachi",
-    "description": "Pakistan Time",
-    "offset": 300
-  },
-  {
-    "name": "Pacific/Palau",
-    "description": "Palau Time",
-    "offset": 540
-  },
-  {
-    "name": "Pacific/Port_Moresby",
-    "description": "Papua New Guinea Time",
-    "offset": 600
-  },
-  {
-    "name": "America/Asuncion",
-    "description": "Paraguay Time",
-    "offset": -240
-  },
-  {
-    "name": "America/Lima",
-    "description": "Peru Time",
-    "offset": -300
-  },
-  {
-    "name": "Asia/Kamchatka",
-    "description": "Petropavlovsk-Kamchatski Time",
-    "offset": 720
-  },
-  {
-    "name": "Asia/Manila",
-    "description": "Philippines Time",
-    "offset": 480
-  },
-  {
-    "name": "Pacific/Enderbury",
-    "description": "Phoenix Is. Time",
-    "offset": 780
-  },
-  {
-    "name": "America/Miquelon",
-    "description": "Pierre \u0026 Miquelon Daylight Time",
-    "offset": -120
-  },
-  {
-    "name": "Pacific/Pitcairn",
-    "description": "Pitcairn Standard Time",
-    "offset": -480
-  },
-  {
-    "name": "Pacific/Pohnpei",
-    "description": "Pohnpei Time",
-    "offset": 660
-  },
-  {
-    "name": "Pacific/Ponape",
-    "description": "Pohnpei Time",
-    "offset": 660
-  },
-  {
-    "name": "Asia/Qyzylorda",
-    "description": "Qyzylorda Time",
-    "offset": 360
-  },
-  {
-    "name": "Indian/Reunion",
-    "description": "Reunion Time",
-    "offset": 240
-  },
-  {
-    "name": "Antarctica/Rothera",
-    "description": "Rothera Time",
-    "offset": -180
-  },
-  {
-    "name": "Asia/Sakhalin",
-    "description": "Sakhalin Time",
-    "offset": 600
-  },
-  {
-    "name": "Europe/Samara",
-    "description": "Samara Time",
-    "offset": 240
-  },
-  {
-    "name": "Pacific/Midway",
-    "description": "Samoa Standard Time",
-    "offset": -660
-  },
-  {
-    "name": "Pacific/Pago_Pago",
-    "description": "Samoa Standard Time",
-    "offset": -660
-  },
-  {
-    "name": "Pacific/Samoa",
-    "description": "Samoa Standard Time",
-    "offset": -660
-  },
-  {
-    "name": "US/Samoa",
-    "description": "Samoa Standard Time",
-    "offset": -660
-  },
-  {
-    "name": "Indian/Mahe",
-    "description": "Seychelles Time",
-    "offset": 240
-  },
-  {
-    "name": "Asia/Singapore",
-    "description": "Singapore Time",
-    "offset": 480
-  },
-  {
-    "name": "Singapore",
-    "description": "Singapore Time",
-    "offset": 480
-  },
-  {
-    "name": "Pacific/Guadalcanal",
-    "description": "Solomon Is. Time",
-    "offset": 660
-  },
-  {
-    "name": "Africa/Johannesburg",
-    "description": "South Africa Standard Time",
-    "offset": 120
-  },
-  {
-    "name": "Africa/Maseru",
-    "description": "South Africa Standard Time",
-    "offset": 120
-  },
-  {
-    "name": "Africa/Mbabane",
-    "description": "South Africa Standard Time",
-    "offset": 120
-  },
-  {
-    "name": "Atlantic/South_Georgia",
-    "description": "South Georgia Standard Time",
-    "offset": -120
-  },
-  {
-    "name": "Asia/Srednekolymsk",
-    "description": "Srednekolymsk Time",
-    "offset": 660
-  },
-  {
-    "name": "America/Paramaribo",
-    "description": "Suriname Time",
-    "offset": -180
-  },
-  {
-    "name": "Antarctica/Syowa",
-    "description": "Syowa Time",
-    "offset": 180
-  },
-  {
-    "name": "Pacific/Tahiti",
-    "description": "Tahiti Time",
-    "offset": -600
-  },
-  {
-    "name": "Asia/Dushanbe",
-    "description": "Tajikistan Time",
-    "offset": 300
-  },
-  {
-    "name": "Asia/Dili",
-    "description": "Timor-Leste Time",
-    "offset": 540
-  },
-  {
-    "name": "Pacific/Fakaofo",
-    "description": "Tokelau Time",
-    "offset": 780
-  },
-  {
-    "name": "Pacific/Tongatapu",
-    "description": "Tonga Time",
-    "offset": 780
-  },
-  {
-    "name": "Asia/Ashgabat",
-    "description": "Turkmenistan Time",
-    "offset": 300
-  },
-  {
-    "name": "Asia/Ashkhabad",
-    "description": "Turkmenistan Time",
-    "offset": 300
-  },
-  {
-    "name": "Pacific/Funafuti",
-    "description": "Tuvalu Time",
-    "offset": 720
-  },
-  {
-    "name": "Asia/Ulaanbaatar",
-    "description": "Ulaanbaatar Summer Time",
-    "offset": 540
-  },
-  {
-    "name": "Asia/Ulan_Bator",
-    "description": "Ulaanbaatar Summer Time",
-    "offset": 540
-  },
-  {
-    "name": "America/Montevideo",
-    "description": "Uruguay Time",
-    "offset": -180
-  },
-  {
-    "name": "Asia/Ust-Nera",
-    "description": "Ust-Nera Time",
-    "offset": 600
-  },
-  {
-    "name": "Asia/Samarkand",
-    "description": "Uzbekistan Time",
-    "offset": 300
-  },
-  {
-    "name": "Asia/Tashkent",
-    "description": "Uzbekistan Time",
-    "offset": 300
-  },
-  {
-    "name": "Pacific/Efate",
-    "description": "Vanuatu Time",
-    "offset": 660
-  },
-  {
-    "name": "America/Caracas",
-    "description": "Venezuela Time",
-    "offset": -270
-  },
-  {
-    "name": "Asia/Vladivostok",
-    "description": "Vladivostok Time",
-    "offset": 600
-  },
-  {
-    "name": "Antarctica/Vostok",
-    "description": "Vostok Time",
-    "offset": 360
-  },
-  {
-    "name": "Pacific/Wake",
-    "description": "Wake Time",
-    "offset": 720
-  },
-  {
-    "name": "Pacific/Wallis",
-    "description": "Wallis \u0026 Futuna Time",
-    "offset": 720
-  },
-  {
-    "name": "Asia/Jakarta",
-    "description": "West Indonesia Time",
-    "offset": 420
-  },
-  {
-    "name": "Asia/Pontianak",
-    "description": "West Indonesia Time",
-    "offset": 420
-  },
-  {
-    "name": "Pacific/Apia",
-    "description": "West Samoa Standard Time",
-    "offset": 780
-  },
-  {
-    "name": "Africa/Bangui",
-    "description": "Western African Time",
-    "offset": 60
-  },
-  {
-    "name": "Africa/Brazzaville",
-    "description": "Western African Time",
-    "offset": 60
-  },
-  {
-    "name": "Africa/Douala",
-    "description": "Western African Time",
-    "offset": 60
-  },
-  {
-    "name": "Africa/Kinshasa",
-    "description": "Western African Time",
-    "offset": 60
-  },
-  {
-    "name": "Africa/Lagos",
-    "description": "Western African Time",
-    "offset": 60
-  },
-  {
-    "name": "Africa/Libreville",
-    "description": "Western African Time",
-    "offset": 60
-  },
-  {
-    "name": "Africa/Luanda",
-    "description": "Western African Time",
-    "offset": 60
-  },
-  {
-    "name": "Africa/Malabo",
-    "description": "Western African Time",
-    "offset": 60
-  },
-  {
-    "name": "Africa/Ndjamena",
-    "description": "Western African Time",
-    "offset": 60
-  },
-  {
-    "name": "Africa/Niamey",
-    "description": "Western African Time",
-    "offset": 60
-  },
-  {
-    "name": "Africa/Porto-Novo",
-    "description": "Western African Time",
-    "offset": 60
-  },
-  {
-    "name": "Africa/Windhoek",
-    "description": "Western African Time",
-    "offset": 60
-  },
-  {
-    "name": "Africa/Casablanca",
-    "description": "Western European Summer Time",
-    "offset": 60
-  },
-  {
-    "name": "Africa/El_Aaiun",
-    "description": "Western European Summer Time",
-    "offset": 60
-  },
-  {
-    "name": "Atlantic/Canary",
-    "description": "Western European Summer Time",
-    "offset": 60
-  },
-  {
-    "name": "Atlantic/Faeroe",
-    "description": "Western European Summer Time",
-    "offset": 60
-  },
-  {
-    "name": "Atlantic/Faroe",
-    "description": "Western European Summer Time",
-    "offset": 60
-  },
-  {
-    "name": "Atlantic/Madeira",
-    "description": "Western European Summer Time",
-    "offset": 60
-  },
-  {
-    "name": "Europe/Lisbon",
-    "description": "Western European Summer Time",
-    "offset": 60
+    "name": "Poland",
+    "offset": 1.0,
+    "latlong": "51.919438,19.145136"
   },
   {
     "name": "Portugal",
-    "description": "Western European Summer Time",
-    "offset": 60
+    "offset": 0.0,
+    "latlong": "39.399872,-8.224454"
   },
   {
-    "name": "WET",
-    "description": "Western European Summer Time",
-    "offset": 60
+    "name": "Puerto Rico",
+    "offset": -4.0,
+    "latlong": "18.220833,-66.590149"
   },
   {
-    "name": "America/Godthab",
-    "description": "Western Greenland Summer Time",
-    "offset": -120
+    "name": "Qatar",
+    "offset": 3.0,
+    "latlong": "25.354826,51.183884"
   },
   {
-    "name": "Asia/Kashgar",
-    "description": "Xinjiang Standard Time",
-    "offset": 360
+    "name": "Reunion",
+    "offset": 4.0,
+    "latlong": "-21.115141,55.536384"
   },
   {
-    "name": "Asia/Urumqi",
-    "description": "Xinjiang Standard Time",
-    "offset": 360
+    "name": "Romainia",
+    "offset": 2.0,
+    "latlong": "45.943161,24.96676"
   },
   {
-    "name": "Asia/Yakutsk",
-    "description": "Yakutsk Time",
-    "offset": 540
+    "name": "Russia",
+    "offset": 0.0,
+    "latlong": "61.52401,105.318756"
   },
   {
-    "name": "Asia/Yekaterinburg",
-    "description": "Yekaterinburg Time",
-    "offset": 300
+    "name": "Rwanda",
+    "offset": 2.0,
+    "latlong": "-1.940278,29.873888"
+  },
+  {
+    "name": "Saint Helena",
+    "offset": 0.0,
+    "latlong": "-24.143474,-10.030696"
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "offset": -4.0,
+    "latlong": "17.357822,-62.782998"
+  },
+  {
+    "name": "Saint Lucia",
+    "offset": -4.0,
+    "latlong": "13.909444,-60.978893"
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "offset": -3.0,
+    "latlong": "46.941936,-56.27111"
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "offset": -4.0,
+    "latlong": "12.984305,-61.287228"
+  },
+  {
+    "name": "Samoa",
+    "offset": 13.0,
+    "latlong": "-13.759029,-172.104629"
+  },
+  {
+    "name": "San Marino",
+    "offset": 1.0,
+    "latlong": "43.94236,12.457777"
+  },
+  {
+    "name": "Sao Tome and Principe",
+    "offset": 0.0,
+    "latlong": "0.18636,6.613081"
+  },
+  {
+    "name": "Saudi Arabia",
+    "offset": 3.0,
+    "latlong": "23.885942,45.079162"
+  },
+  {
+    "name": "Scotland",
+    "offset": 0.0,
+    "latlong": "56.4907,-4.2026"
+  },
+  {
+    "name": "Senegal",
+    "offset": 0.0,
+    "latlong": "14.497401,-14.452362"
+  },
+  {
+    "name": "Seychelles",
+    "offset": 4.0,
+    "latlong": "-4.679574,55.491977"
+  },
+  {
+    "name": "Sierra Leone",
+    "offset": 0.0,
+    "latlong": "8.460555,-11.779889"
+  },
+  {
+    "name": "Singapore",
+    "offset": 8.0,
+    "latlong": "1.352083,103.819836"
+  },
+  {
+    "name": "Slovakia",
+    "offset": 1.0,
+    "latlong": "48.669026,19.699024"
+  },
+  {
+    "name": "Slovenia",
+    "offset": 1.0,
+    "latlong": "46.151241,14.995463"
+  },
+  {
+    "name": "Solomon Islands",
+    "offset": 11.0,
+    "latlong": "-9.64571,160.156194"
+  },
+  {
+    "name": "Somalia",
+    "offset": 3.0,
+    "latlong": "5.152149,46.199616"
+  },
+  {
+    "name": "South Africa",
+    "offset": 2.0,
+    "latlong": "-30.559482,22.937506"
+  },
+  {
+    "name": "South Georgia and South Sandwich Islands",
+    "offset": -2.0,
+    "latlong": "-54.429579,-36.587909"
+  },
+  {
+    "name": "Spain",
+    "offset": 1.0,
+    "latlong": "40.463667,-3.74922"
+  },
+  {
+    "name": "Sri Lanka",
+    "offset": 5.3,
+    "latlong": "7.873054,80.771797"
+  },
+  {
+    "name": "Sudan",
+    "offset": 3.0,
+    "latlong": "12.862807,30.217636"
+  },
+  {
+    "name": "Suriname",
+    "offset": -3.0,
+    "latlong": "3.919305,-56.027783"
+  },
+  {
+    "name": "Svalbard",
+    "offset": 1.0,
+    "latlong": "77.553604,23.670272"
+  },
+  {
+    "name": "Swaziland",
+    "offset": 2.0,
+    "latlong": "-26.522503,31.465866"
+  },
+  {
+    "name": "Sweden",
+    "offset": 1.0,
+    "latlong": "60.128161,18.643501"
+  },
+  {
+    "name": "Switzerland",
+    "offset": 1.0,
+    "latlong": "46.818188,8.227512"
+  },
+  {
+    "name": "Syria",
+    "offset": 2.0,
+    "latlong": "34.802075,38.996815"
+  },
+  {
+    "name": "Taiwan",
+    "offset": 8.0,
+    "latlong": "23.69781,120.960515"
+  },
+  {
+    "name": "Tajikistan",
+    "offset": 5.0,
+    "latlong": "38.861034,71.276093"
+  },
+  {
+    "name": "Tanzania",
+    "offset": 3.0,
+    "latlong": "-6.369028,34.888822"
+  },
+  {
+    "name": "Thailand",
+    "offset": 7.0,
+    "latlong": "15.870032,100.992541"
+  },
+  {
+    "name": "Tobago",
+    "offset": -4.0,
+    "latlong": "10.691803,-61.222503"
+  },
+  {
+    "name": "Togo",
+    "offset": 0.0,
+    "latlong": "8.619543,0.824782"
+  },
+  {
+    "name": "Tokelau",
+    "offset": 13.0,
+    "latlong": "-8.967363,-171.855881"
+  },
+  {
+    "name": "Tonga",
+    "offset": 13.0,
+    "latlong": "-21.17898,-175.198242"
+  },
+  {
+    "name": "Trinidad",
+    "offset": 13.0,
+    "latlong": "10.691803,-61.222503"
+  },
+  {
+    "name": "Tunisia",
+    "offset": 1.0,
+    "latlong": "33.886917,9.537499"
+  },
+  {
+    "name": "Turkey",
+    "offset": 2.0,
+    "latlong": "38.963745,35.243322"
+  },
+  {
+    "name": "Turkmenistan",
+    "offset": 5.0,
+    "latlong": "38.969719,59.556278"
+  },
+  {
+    "name": "Tuvalu",
+    "offset": 12.0,
+    "latlong": "-7.109535,177.64933"
+  },
+  {
+    "name": "Uganda",
+    "offset": 3.0,
+    "latlong": "1.373333,32.290275"
+  },
+  {
+    "name": "Ukraine",
+    "offset": 2.0,
+    "latlong": "48.379433,31.16558"
+  },
+  {
+    "name": "United Arab Emirates",
+    "offset": 4.0,
+    "latlong": "23.424076,53.847818"
+  },
+  {
+    "name": "United Kingdom",
+    "offset": 0.0,
+    "latlong": "55.378051,-3.435973"
+  },
+  {
+    "name": "Uruguay",
+    "offset": -3.0,
+    "latlong": "-32.522779,-55.765835"
+  },
+  {
+    "name": "USA",
+    "offset": 0.0,
+    "latlong": "37.09024,-95.712891"
+  },
+  {
+    "name": "Uzbekistan",
+    "offset": 5.0,
+    "latlong": "41.377491,64.585262"
+  },
+  {
+    "name": "Vanuatu",
+    "offset": 11.0,
+    "latlong": "-15.376706,166.959158"
+  },
+  {
+    "name": "Venezuela",
+    "offset": -4.3,
+    "latlong": "6.42375,-66.58973"
+  },
+  {
+    "name": "Vietnam",
+    "offset": 7.0,
+    "latlong": "14.058324,108.277199"
+  },
+  {
+    "name": "Virgin Islands",
+    "offset": -4.0,
+    "latlong": "18.335765,-64.896335"
+  },
+  {
+    "name": "Wales",
+    "offset": 10.0,
+    "latlong": "52.1307,-3.7837"
+  },
+  {
+    "name": "Wallis and Futuna",
+    "offset": 12.0,
+    "latlong": "-13.768752,-177.156097"
+  },
+  {
+    "name": "West Bank",
+    "offset": 3.0,
+    "latlong": "31.9428,35.2572"
+  },
+  {
+    "name": "Western Sahara",
+    "offset": 1.0,
+    "latlong": "24.215527,-12.885834"
+  },
+  {
+    "name": "Yemen",
+    "offset": 3.0,
+    "latlong": "15.552727,48.516388"
+  },
+  {
+    "name": "Zambia",
+    "offset": 1.0,
+    "latlong": "-13.133897,27.849332"
+  },
+  {
+    "name": "Zimbabwe",
+    "offset": 2.0,
+    "latlong": "-19.015438,29.154857"
   }
 ]

@@ -1,10 +1,8 @@
-import { StatusBar } from "expo-status-bar";
 import { useEffect, useState, useMemo } from "react";
 import {
   StyleSheet,
   Text,
   ScrollView,
-  Button,
   View,
   TouchableOpacity,
   TextInput,
@@ -16,7 +14,6 @@ export default function App() {
   const [hourString, setHourString] = useState("");
   const [currentTimeZone, setCurrentTimeZone] = useState({
     name: "UTC",
-    description: "Coordinated Universal Time",
     utcOffset: 0,
   });
   const [filterText, setFilterText] = useState("");
@@ -37,15 +34,10 @@ export default function App() {
     return () => clearInterval(interval);
   }, [currentTimeZone]);
 
-  const onPressHandler = (
-    name: string,
-    description: string,
-    offset: number
-  ) => {
+  const onPressHandler = (name: string, offset: number) => {
     setCurrentTimeZone(() => {
       return {
         name: name,
-        description: description,
         utcOffset: offset,
       };
     });
@@ -62,17 +54,16 @@ export default function App() {
       });
     }
 
-    let answer = data.map(({ name, description, offset }, index) => (
+    let answer = data.map(({ name, offset }, index) => (
       <TouchableOpacity
         style={styles.timeZone}
         onPress={() => {
-          onPressHandler(name, description, offset);
+          onPressHandler(name, offset);
         }}
       >
         <View key={index}>
           <Text style={styles.timeZoneText}>{name},</Text>
-          <Text style={styles.timeZoneText}>{description},</Text>
-          <Text style={styles.timeZoneText}>offset: {offset / 60}</Text>
+          <Text style={styles.timeZoneText}>offset: {offset}</Text>
         </View>
       </TouchableOpacity>
     ));
@@ -81,8 +72,10 @@ export default function App() {
   };
 
   const translateDateByUtcOffset = (date: Date, offset: number) => {
+    let offsetMinutes = offset * 60;
+
     const translatedDate = new Date(
-      date.getTime() + (offset + date.getTimezoneOffset()) * 60000
+      date.getTime() + (offsetMinutes + date.getTimezoneOffset()) * 60000
     );
 
     return translatedDate;
@@ -121,7 +114,6 @@ export default function App() {
   return (
     <ScrollView style={styles.container}>
       <Text style={styles.clock}>{currentTimeZone.name}</Text>
-      <Text style={styles.clock}>{currentTimeZone.description}</Text>
       <Text style={styles.clock}>{dateString}</Text>
       <Text style={styles.clock}>{hourString}</Text>
 
@@ -137,12 +129,6 @@ export default function App() {
       <View style={styles.list}>{listOfTimeZones}</View>
     </ScrollView>
   );
-}
-
-interface ITimeZone {
-  name: string;
-  description: string;
-  offset: number;
 }
 
 const styles = StyleSheet.create({
