@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import {
   StyleSheet,
   Text,
@@ -19,6 +19,7 @@ export default function App() {
     description: "Coordinated Universal Time",
     utcOffset: 0,
   });
+  const [filterText, setFilterText] = useState("");
 
   useEffect(() => {
     updateDate(translateDateByUtcOffset(new Date(), currentTimeZone.utcOffset));
@@ -58,6 +59,7 @@ export default function App() {
     console.log("morgen");
 
     if (filterText != "") {
+      console.log("hoho");
       data = data.filter((item) => {
         return item.name.includes(filterText);
       });
@@ -112,8 +114,9 @@ export default function App() {
     setHourString(`${stringHours}:${stringMinutes}:${stringSeconds}`);
   };
 
+  const listOfTimeZones = useMemo(() => mapData(filterText), [filterText]);
   const onChangeHandler = (text: string) => {
-    mapData(text);
+    setFilterText(text);
   };
 
   return (
@@ -128,7 +131,7 @@ export default function App() {
         onChangeText={(text) => onChangeHandler(text)}
       ></TextInput>
 
-      <View style={styles.list}>{mapData()}</View>
+      <View style={styles.list}>{listOfTimeZones}</View>
     </ScrollView>
   );
 }
