@@ -19,21 +19,33 @@ export default function App() {
     offset: 0,
   });
   const [showList, setShowList] = useState(false);
+  const [utcOffset, setUtcOffset] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      updateDate();
+      let date = translateDateByUtcOffset(new Date(), currentTimeZone.offset);
+      if (utcOffset != 0) {
+        console.log(utcOffset);
+        date = translateDateByUtcOffset(new Date(), utcOffset);
+      }
+      updateDate(date);
     }, 1000);
     return () => clearInterval(interval);
-  }, []);
+  }, [utcOffset]);
 
-  const onPressHandler = () => {
+  const onPressHandler = (offset: number) => {
+    setUtcOffset(offset);
     setShowList(!showList);
   };
 
   const mapData = () => {
     let answer = Data.map(({ name, description, offset }, index) => (
-      <TouchableOpacity style={styles.timeZone} onPress={onPressHandler}>
+      <TouchableOpacity
+        style={styles.timeZone}
+        onPress={() => {
+          onPressHandler(offset);
+        }}
+      >
         <Text style={styles.timeZoneText} key={index}>
           {name}, {description}, offset: {offset / 60}
         </Text>
@@ -43,21 +55,15 @@ export default function App() {
     return answer;
   };
 
-  const translateDateByUtcOffset = (date: Date, utcOffset: number) => {
-    // Convert the UTC offset from hours to minutes
-    const offsetInMinutes = utcOffset * 60;
-
-    // Create a new date object with the desired offset
+  const translateDateByUtcOffset = (date: Date, offset: number) => {
     const translatedDate = new Date(
-      date.getTime() + (offsetInMinutes + date.getTimezoneOffset()) * 60000
+      date.getTime() + (offset + date.getTimezoneOffset()) * 60000
     );
 
     return translatedDate;
   };
 
-  const updateDate = (date: Date = new Date()) => {
-    date = translateDateByUtcOffset(date, -1);
-
+  const updateDate = (date: Date) => {
     let hours: number = date.getHours();
     let minutes: number = date.getMinutes();
     let seconds: number = date.getSeconds();
