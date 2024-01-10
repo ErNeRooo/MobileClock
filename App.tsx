@@ -56,10 +56,7 @@ export default function App() {
       return a.name.localeCompare(b.name);
     });
 
-    console.log("morgen");
-
     if (filterText != "") {
-      console.log("hoho");
       data = data.filter((item) => {
         return item.name.includes(filterText);
       });
@@ -133,6 +130,8 @@ export default function App() {
         onChangeText={(text) => onChangeHandler(text)}
         maxLength={40}
         cursorColor={"#2563eb"}
+        placeholder="Search for a timezone"
+        placeholderTextColor={"#737373"}
       ></TextInput>
 
       <View style={styles.list}>{listOfTimeZones}</View>
