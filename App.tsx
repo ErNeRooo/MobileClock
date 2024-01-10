@@ -16,25 +16,38 @@ export default function App() {
   const [currentTimeZone, setCurrentTimeZone] = useState({
     name: "UTC",
     description: "Coordinated Universal Time",
-    offset: 0,
+    utcOffset: 0,
   });
   const [showList, setShowList] = useState(false);
-  const [utcOffset, setUtcOffset] = useState(0);
 
   useEffect(() => {
+    updateDate(translateDateByUtcOffset(new Date(), currentTimeZone.utcOffset));
+
     const interval = setInterval(() => {
-      let date = translateDateByUtcOffset(new Date(), currentTimeZone.offset);
-      if (utcOffset != 0) {
-        console.log(utcOffset);
-        date = translateDateByUtcOffset(new Date(), utcOffset);
+      let date = translateDateByUtcOffset(
+        new Date(),
+        currentTimeZone.utcOffset
+      );
+      if (currentTimeZone.utcOffset != 0) {
+        date = translateDateByUtcOffset(new Date(), currentTimeZone.utcOffset);
       }
       updateDate(date);
     }, 1000);
     return () => clearInterval(interval);
-  }, [utcOffset]);
+  }, [currentTimeZone]);
 
-  const onPressHandler = (offset: number) => {
-    setUtcOffset(offset);
+  const onPressHandler = (
+    name: string,
+    description: string,
+    offset: number
+  ) => {
+    setCurrentTimeZone(() => {
+      return {
+        name: name,
+        description: description,
+        utcOffset: offset,
+      };
+    });
     setShowList(!showList);
   };
 
@@ -43,7 +56,7 @@ export default function App() {
       <TouchableOpacity
         style={styles.timeZone}
         onPress={() => {
-          onPressHandler(offset);
+          onPressHandler(name, description, offset);
         }}
       >
         <Text style={styles.timeZoneText} key={index}>
@@ -90,6 +103,8 @@ export default function App() {
 
   return (
     <ScrollView style={styles.container}>
+      <Text style={styles.clock}>{currentTimeZone.name}</Text>
+      <Text style={styles.clock}>{currentTimeZone.description}</Text>
       <Text style={styles.clock}>{dateString}</Text>
       <Text style={styles.clock}>{hourString}</Text>
       <Button
