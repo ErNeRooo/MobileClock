@@ -1,33 +1,44 @@
 import { StatusBar } from "expo-status-bar";
 import { useEffect, useState } from "react";
-import { StyleSheet, Text, ScrollView, Button, View } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  ScrollView,
+  Button,
+  View,
+  TouchableOpacity,
+} from "react-native";
+import Data from "./assets/timezones.json";
 
 export default function App() {
   const [dateString, setDateString] = useState("");
   const [hourString, setHourString] = useState("");
   const [showList, setShowList] = useState(false);
-  const [data, setData] = useState([]);
-
-  let file = "./assets/timezones.json";
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch(file);
-        const jsonData = await response.json();
-        setData(jsonData);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    };
-
-    fetchData();
-
     const interval = setInterval(() => {
       updateDate();
     }, 1000);
     return () => clearInterval(interval);
   }, []);
+
+  const onPressHandler = () => {
+    setShowList(!showList);
+  };
+
+  const mapData = () => {
+    let answer = Data.map(
+      ({ value, abbr, offset, isdst, text, utc }: ITimeZone, index) => (
+        <TouchableOpacity style={styles.timeZone} onPress={onPressHandler}>
+          <Text style={styles.timeZoneText} key={index}>
+            {value}, offset: {offset}
+          </Text>
+        </TouchableOpacity>
+      )
+    );
+
+    return answer;
+  };
 
   const updateDate = () => {
     let date = new Date();
@@ -66,20 +77,18 @@ export default function App() {
           setShowList(!showList);
         }}
       />
-      {showList && (
-        <View style={styles.list}>
-          {data.map((x) => {
-            return (
-              <View style={styles.timeZone} key={x.value}>
-                <Text style={{ color: "white" }}>{x.value}</Text>
-                <Text style={{ color: "white" }}>{x.offset}</Text>
-              </View>
-            );
-          })}
-        </View>
-      )}
+      {showList && <View style={styles.list}>{mapData()}</View>}
     </ScrollView>
   );
+}
+
+interface ITimeZone {
+  value: string;
+  abbr: string;
+  offset: number;
+  isdst: boolean;
+  text: string;
+  utc: string[];
 }
 
 const styles = StyleSheet.create({
@@ -109,5 +118,9 @@ const styles = StyleSheet.create({
     flexDirection: "row",
 
     backgroundColor: "blue",
+  },
+  timeZoneText: {
+    color: "white",
+    fontSize: 20,
   },
 });
