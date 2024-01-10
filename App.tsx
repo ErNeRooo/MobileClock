@@ -72,9 +72,11 @@ export default function App() {
           onPressHandler(name, description, offset);
         }}
       >
-        <Text style={styles.timeZoneText} key={index}>
-          {name}, {description}, offset: {offset / 60}
-        </Text>
+        <View key={index}>
+          <Text style={styles.timeZoneText}>{name},</Text>
+          <Text style={styles.timeZoneText}>{description},</Text>
+          <Text style={styles.timeZoneText}>offset: {offset / 60}</Text>
+        </View>
       </TouchableOpacity>
     ));
 
@@ -129,6 +131,8 @@ export default function App() {
       <TextInput
         style={styles.search}
         onChangeText={(text) => onChangeHandler(text)}
+        maxLength={40}
+        cursorColor={"#2563eb"}
       ></TextInput>
 
       <View style={styles.list}>{listOfTimeZones}</View>
@@ -162,13 +166,17 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   timeZone: {
-    height: 50,
+    height: "auto",
 
-    justifyContent: "center",
-    alignItems: "center",
+    borderRadius: 20,
+    borderWidth: 3,
+    borderColor: "#2563eb",
+    padding: 10,
+
+    alignItems: "flex-start",
     flexDirection: "row",
 
-    backgroundColor: "blue",
+    backgroundColor: "transparent",
   },
   timeZoneText: {
     color: "white",
@@ -176,9 +184,16 @@ const styles = StyleSheet.create({
   },
   search: {
     height: 50,
-    backgroundColor: "white",
-    borderRadius: 10,
+
+    color: "white",
+    fontSize: 20,
+    backgroundColor: "transparent",
+    borderRadius: 20,
+    borderStyle: "solid",
+    borderWidth: 3,
+    borderColor: "white",
     paddingHorizontal: 10,
+
     marginBottom: 10,
   },
 });
